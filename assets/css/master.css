@@ -65,7 +65,7 @@
 
 @font-face {
   font-family: Collingar;
-  src: url("../fonts/Collingar\ DEMO.otf") format("opentype");
+  src: url("../fonts/collingar-collingar-400.otf") format("opentype");
 }
 
 
@@ -605,6 +605,70 @@ nav.bootsnav.navbar-sidebar ul.nav {
 }
 .no-top-padding{
     padding-top: 0;
+}
+
+/*=============================================
+                TICKER
+=============================================*/
+
+/* * {
+  box-sizing: border-box;
+}
+body {
+  padding-bottom: 4.5rem;
+  background: #fefefe;
+  color: #14181c;
+  margin: 0;
+} */
+
+.ticker-wrap {
+  width: 100%;
+  height: 80px;
+  margin: 0 auto;
+  overflow: hidden;
+  white-space: nowrap;
+  bottom: 0;
+  height: 3.5rem;
+  background-color: #FA4319; 
+}
+.ticker {
+  display: inline-block;
+  margin-top: 5px;
+  animation: marquee 50s linear infinite;
+}
+.item-collection-1 {
+  position: relative;
+  left: 0%;
+  animation: swap 50s linear infinite;
+}
+
+.item {
+  display: inline-block;
+  padding: 0 1rem;
+  font-size: 2rem;
+  color: white;   
+  /* font-weight: 200;
+  font-family: sans-serif; */
+}
+
+/* Transition */
+@keyframes marquee {
+  0% {
+    transform: translateX(0)
+  }
+  100% {
+    transform: translateX(-100%)
+  }
+}
+
+@keyframes swap {
+  0%, 50% {
+    left: 0%;
+  }
+  50.01%,
+  100% {
+    left: 100%;
+  }
 }
 
 
@@ -1242,8 +1306,8 @@ button:focus {
 
 .btn-color {
     color: #fff;
-    border-color: #d42e22;
-    background-color: #d42e22;
+    border-color: #FA4319;
+    background-color: #FA4319;
 }
 
 .btn-color:hover, .btn-color:active, .btn-color:focus {
@@ -2002,7 +2066,7 @@ ul#portfolio-grid.two-column>li{
 }
 .portfolio-details li a{
     display: block;
-	color:#f1f1f1;
+	/* color:#f1f1f1; */
 }
 
 .portfolio-details li a:hover{
@@ -2041,7 +2105,7 @@ ul#portfolio-grid.two-column>li{
 }
 
 .work-item-wrap .work-item-thumbnail img {
-    border-radius: 15px;
+    /* border-radius: 15px; */
 }
 
 .work-item-wrap .work-item-thumbnail{overflow: hidden;}
@@ -3608,12 +3672,13 @@ ul.footer-gallery li img {
     font-size: 16px;
     line-height: 25px;
     font-weight: 300;
-    color: #212121;
+    color: #ffffff;
+    background-color: #1E1E1E;
     border: 1px solid #eee;
-    border-radius: 0;
+    border-radius: 20px;
 }
 .form-control:focus {
-    border-color: #d42e22;
+    border-color: #FA4319;
 }
 
 .contact-us p, .contact-us address {
@@ -3631,7 +3696,7 @@ ul.footer-gallery li img {
 }
 
 .contact-us address a {
-	color:#d42e22;
+	color:#FA4319;
 }
 
 .contact-us address a:hover {
@@ -3653,7 +3718,7 @@ ul.footer-gallery li img {
 }
 
 .search-submit:hover{
-  color: #d42e22;
+  color: #FA4319;
 }
 
 /*=============================================
@@ -5158,7 +5223,7 @@ ul.social-media-dark li:last-child {
 ul.social-media-dark li a{
   font-size: 16px;
   display: inline-block;
-  color: #212121;
+  color: #FFF;
 }
 
 ul.social-media-dark li a:hover{
