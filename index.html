@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="assets/css/master.css">
   <link rel="stylesheet" href="assets/css/responsive.css">
 
+  <!--pagina de icon: https://icofont.com/-->
   <!-- Revolution Style Sheets -->
   <link rel="stylesheet" type="text/css" href="revolution/css/settings.css">
   <link rel="stylesheet" type="text/css" href="revolution/css/layers.css">
@@ -48,7 +49,7 @@
             <i class="icofont icofont-navigation-menu"></i>
           </button>
           <div class="logo">
-            <a href="index.html">
+            <a href="#top">
               <img class="logo logo-display" src="assets/images/logo-naranja.png" alt="">
               <img class="logo logo-scrolled" src="assets/images/logo-naranja.png" alt="">
             </a>
@@ -59,16 +60,16 @@
         <div class="collapse navbar-collapse" id="navbar-menu">
           <ul class="nav navbar-nav" data-in="fadeIn" data-out="fadeOut">
             <li class="dropdown megamenu-fw">
-              <a href="index.html" class="dropdown-toggle" data-toggle="dropdown">Home</a>
+              <a href="#top" class="dropdown-toggle" data-toggle="dropdown">Home</a>
             </li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Work</a>
+              <a href="#work" class="dropdown-toggle" data-toggle="dropdown">Work</a>
             </li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Conocenos</a>
+              <a href="#quehacemos" class="dropdown-toggle" data-toggle="dropdown">Conocenos</a>
             </li>
             <li class="dropdown">
-              <a href="" class="dropdown-toggle" data-toggle="dropdown">Contacto</a>
+              <a href="#contact" class="dropdown-toggle" data-toggle="dropdown">Contacto</a>
             </li>
             <!-- <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Shops</a>
@@ -84,7 +85,7 @@
     <!--=== Header End ======-->
 
     <!--== Hero Slider Start ==-->
-    <section class="remove-padding transition-none ">
+    <section class="remove-padding transition-none" id="top">
 
       <!-- Fondo -->
       <div id="rev_slider_landing_custom_wrapper" class="rev_slider_wrapper fullwidthbanner-container"
@@ -258,7 +259,7 @@
 
 
     <!--=== Marcas magnificas - casos de exito ======-->
-    <section class="pb-0">
+    <section class="pb-0" id="work">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
@@ -393,7 +394,7 @@
 
 
     <!--Que hacemos start-->
-    <section class="first-ico-box">
+    <section class="first-ico-box" id="quehacemos">
       <div class="container">
         <div class="row">
           <div class="col-sm-8 section-heading">
@@ -444,9 +445,21 @@
 
 
     <!--FORMULARIO DE CONTACTO-->
-    <section class="contact-us dark-bg">
+    <section class="contact-us dark-bg" id="contact">
       <div class="container">
         <div class="row">
+          <div class="contact-box" class="col-md-12">
+            <p>
+              Somos un equipo jóven un poco (del todo) adictos a las redes sociales,
+              obsesivos del diseño en todos los aspectos de la vida y con una gran debilidad por los happy hour. Bueno,
+              ¿y quién no? </p>
+            <br>
+            <br>
+            <p><span>Conocenos</span></p>
+            <i class="icofont-caret-down icofont-2x" style="color: #fa4319;"></i>
+            <!-- <i class="fa-solid fa-caret-down" ></i> -->
+
+          </div>
           <div class="col-md-12">
             <form name="contact-form" id="contact-form" action="php/contact.php" method="POST">
               <div class="messages"></div>
