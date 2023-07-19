@@ -117,7 +117,7 @@ body {
 .josefin-font{font-family: 'Josefin Sans', sans-serif;}
 
 h1, h2, h3, h4, h5, h6 {
-    color: #212121;
+    color: #ffffff;
     margin: 10px 0;
     font-style: normal;
     font-family: 'Jost', sans-serif;
@@ -426,7 +426,7 @@ nav.bootsnav.navbar-sidebar ul.nav {
 
 .dark-bg{background-color:#212121;}
 .white-bg{background-color: #fff;}
-.default-bg{background-color:#d42e22;}
+.default-bg{background-color:#FA4319;}
 .red-bg{background:#f44336;}
 .grey-bg{background:#eee;}
 .yellow-bg{background:#FDD835;}
@@ -3387,11 +3387,11 @@ a.readmore > span {
 }
 
 .post-controls .post-share li a {
-	color:#212121;
+	color:#fefefe;
 }
 
 .post-controls .post-share li a:hover {
-	color:#d42e22;
+	color:#FA4319;
 }
 
 
@@ -3657,6 +3657,26 @@ ul.footer-gallery li img {
   position: absolute;
   left: 0;
   top: 1px;
+}
+
+#contact .contact-box {
+  border: solid white 1px;
+  border-radius: 15px;
+  background-color: #1E1E1E;
+  margin: 5%;
+  padding: 30px;
+  /* padding-bottom: 150px;
+  margin-bottom: 15px; */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+#contact .contact-box p span {
+  font-weight: bold;
 }
 
 /*=============================================
@@ -6137,9 +6157,9 @@ form.register {
 	Call to Action
 -------------------------------------------*/
 .cta-block hr{height: 1px;border-top: 1px solid #ebebeb;display: block;position: relative;top: 1px;width: 100%;border-color: rgba(136,136,136,0.8);}
-.cta-heading-left{text-align: left;}
+.cta-heading-left h3{text-align: left; }
 .cta-heading-left .subtitle{color: #fff;text-transform: uppercase;font-family: 'Jost', sans-serif;font-weight: 400;}
-.cta-heading-left h3{font-size: 50px;color: #fff;font-family: 'Jost', sans-serif;font-weight: 700;line-height: 1.4;}
+.cta-heading-left h3{font-size: 50px;color: #fff;font-family: Collingar;;font-weight: 700;line-height: 1.4;}
 
 .cta-heading-right{text-align: left;}
 .cta-heading-right .content-text{font-size: 18px;color: #fff;font-family: 'Jost', sans-serif;font-weight: 400;line-height: 1.5;}
