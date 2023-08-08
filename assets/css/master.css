@@ -245,14 +245,14 @@ section {
   color: #EAE3DA;
 	font-weight: 300;
   margin-bottom: 1.7rem;
-	font-size:20px;
+	font-size:25px;
   letter-spacing: 2px;
 }
 
 .quehacemos .quehacemos-text {
   font-family: 'Prompt', sans-serif;
   color: #EAE3DA;
-	font-weight: 100;
+	font-weight: 200;
   /* margin-bottom: 25px; */
 	font-size:15px;
   /* letter-spacing: 2px; */
@@ -632,12 +632,12 @@ body {
   overflow: hidden;
   white-space: nowrap;
   bottom: 0;
-  height: 4.5rem;
+  height: 6rem;
   background-color: #FA4319; 
 }
 .ticker {
   display: inline-block;
-  margin-top: 7px;
+  margin-top: 13px;
   animation: marquee 80s linear infinite;
 }
 .item-collection-1 {
@@ -651,7 +651,7 @@ body {
   padding: 0 1rem;
   font-size: 2rem;
   color: white;   
-  /* font-weight: 200;
+  font-family: Collingar;  /* font-weight: 200;
   font-family: sans-serif; */
 }
 
@@ -3798,7 +3798,7 @@ ul.footer-gallery li img {
     height: 35px;
     text-align: center;
     line-height: 35px;
-    background: #d42e22;
+    background: #FA4319;
     color: #fff;
     cursor: pointer;
     border: 0;
@@ -6362,6 +6362,28 @@ form.register {
 .swiper-button-next:hover,
 .swiper-button-prev:hover {
   color: #ff0000; /* Cambia el color al pasar el mouse por encima */
+}
+
+/* Estilos para el contenedor del slider */
+.swiper-container {
+  position: relative; /* Asegura que los elementos posicionados internamente sean relativos a este contenedor */
+}
+
+.swiper-slide img{
+border-radius: 15px;
+}
+/* Estilos para el texto superpuesto */
+.slide-caption {
+  position: absolute;
+  top: 85%; /* Ajusta según la posición vertical deseada */
+  left: 50%; /* Ajusta según la posición horizontal deseada */
+  transform: translate(-50%, -50%); /* Centra el texto */
+  width: 95%;
+  background-color: rgba(0, 0, 0, 0.7);  /*Fondo semitransparente para el texto */
+  color: white; /* Color del texto */
+  padding: 15px; /* Espaciado interno del texto */
+  border-radius: 5px; /* Bordes redondeados */
+  font-size: 14px; /* Tamaño de fuente */
 }
 
 /* .swiper-container {
