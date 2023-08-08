@@ -27,7 +27,7 @@
 	.schedule-wrap .nav-tabs li a{padding: 12px 11px;margin-right: 5px;}
 }
 
-@media (max-width:991px){
+@media (max-width:1024px){
 	nav.navbar.bootsnav.navbar-fixed{height:auto;}
 	nav.navbar.bootsnav.navbar-transparent .logo, .logo{text-align: center;display: inline-block;height: 60px;}
 	nav .logo > a{padding-top: 12px;padding-bottom: 10px;}
@@ -52,7 +52,7 @@
 
 
 
-@media (min-width:767px) and (max-width:991px){
+@media (min-width:767px) and (max-width:1024px){
 	.slider-bg .hero-text h1, .hero-text h1, .error-cover-bg h1, .coming-cover-bg h1 {font-size: 70px;}
 	.feature-box, .counter, .copy-right, .post{margin-bottom:20px;}
 	.embed-container, .contact-us h3{margin-top:20px;}

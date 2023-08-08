@@ -51,7 +51,8 @@
 /* =============================================
             	Theme Reset Style
 ============================================= */
-@import url('https://fonts.googleapis.com/css2?family=Cardo&family=Great+Vibes&family=Hind&family=Josefin+Sans:wght@300;400;600&family=Jost:wght@300;400;500;600;700;800;900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Cardo&family=Great+Vibes&family=Hind&family=Josefin+Sans:wght@300;400;600&family=Jost:wght@300;400;500;600;700;800;900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url("../css/bootstrap.min.css");
 @import url("../css/icofont.min.css");
 @import url("../css/custom-icons.min.css");
@@ -70,7 +71,7 @@
 
 
 ::selection {
-    background-color: #212121;
+    background-color: #1e1e1e;
     color: #fff;
 }
 
@@ -90,9 +91,9 @@ body {
 }
 body {
     color: #888;
-    background: #000000;
+    background: #1e1e1e;
     font-size:15px;
-	font-family: 'Hind', sans-serif;
+	font-family: 'Prompt', sans-serif;
 }
 
 .wrapper {
@@ -242,10 +243,19 @@ section {
 .quehacemos .quehacemos-title {
   font-family: 'Collingar', sans-serif;
   color: #EAE3DA;
-	font-weight: 200;
-  margin-bottom: 25px;
-	font-size:18px;
+	font-weight: 300;
+  margin-bottom: 1.7rem;
+	font-size:20px;
   letter-spacing: 2px;
+}
+
+.quehacemos .quehacemos-text {
+  font-family: 'Prompt', sans-serif;
+  color: #EAE3DA;
+	font-weight: 100;
+  /* margin-bottom: 25px; */
+	font-size:15px;
+  /* letter-spacing: 2px; */
 }
 
 .quehacemos .quehacemos-img {
@@ -257,12 +267,6 @@ section {
 	font-size:18px;
   letter-spacing: 5px;
 }
-
-.quehacemos p{
-  font-size: 19px;
-  line-height: 1.5;
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight: 800;}
 
 
 
@@ -424,7 +428,7 @@ nav.bootsnav.navbar-sidebar ul.nav {
 	font-size:65px;
 }
 
-.dark-bg{background-color:#212121;}
+.dark-bg{background-color:#1e1e1e;}
 .white-bg{background-color: #fff;}
 .default-bg{background-color:#FA4319;}
 .red-bg{background:#f44336;}
@@ -623,23 +627,23 @@ body {
 
 .ticker-wrap {
   width: 100%;
-  height: 80px;
+  /* height: 80px; */
   margin: 0 auto;
   overflow: hidden;
   white-space: nowrap;
   bottom: 0;
-  height: 3.5rem;
+  height: 4.5rem;
   background-color: #FA4319; 
 }
 .ticker {
   display: inline-block;
-  margin-top: 5px;
-  animation: marquee 50s linear infinite;
+  margin-top: 7px;
+  animation: marquee 80s linear infinite;
 }
 .item-collection-1 {
   position: relative;
   left: 0%;
-  animation: swap 50s linear infinite;
+  animation: swap 80s linear infinite;
 }
 
 .item {
@@ -1267,6 +1271,10 @@ input.search-bar-top:-moz-placeholder { color: #fff!important; }
     box-shadow: none;
 }
 
+.dropdown {
+  margin-right: 1rem;
+}
+
 .btn-circle {
 	border-radius:25px;
 }
@@ -1291,9 +1299,10 @@ button:focus {
     font-size: 14px;
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
-    font-weight: 500;
-    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-family: 'Prompt', sans-serif;
     letter-spacing: 1px;
+    float: right;
 }
 
 .btn + .btn {
@@ -1311,8 +1320,8 @@ button:focus {
 }
 
 .btn-color:hover, .btn-color:active, .btn-color:focus {
-    background-color: #ce1500;
-    border-color: #ce1500;
+    background-color: #FA4319;
+    border-color: #FA4319;
     color: #fff;
 }
 
@@ -1323,8 +1332,8 @@ button:focus {
 }
 
 .btn-red:hover, .btn-red:active, .btn-red:focus {
-    background-color: #d32f2f;
-    border-color: #d32f2f;
+    background-color: #FA4319;
+    border-color: #FA4319;
     color: #fff;
 }
 
@@ -1900,6 +1909,9 @@ ul#portfolio-grid.two-column>li{
     .section-heading h4{
       font-size: 15px;
     }
+    #work {
+      background-color: #000;
+    }
     .work-item-wrap .work-item-info h3{
       font-size: 14px!important;
     }
@@ -2108,13 +2120,8 @@ ul#portfolio-grid.two-column>li{
     /* border-radius: 15px; */
 }
 
-.work-item-wrap .work-item-thumbnail{overflow: hidden;}
-.swiper-slide { width: 80%!important; }
-.scoda-swiper.pagination-style-01 .swiper-pagination {
-    right: 0;
-    top: 15px;
-}
-.scoda-swiper .swiper-pagination-bullet {
+
+/* .scoda-swiper .swiper-pagination-bullet {
     display: inline-block;
     vertical-align: middle;
     box-sizing: border-box;
@@ -2128,8 +2135,8 @@ ul#portfolio-grid.two-column>li{
     position: relative;
     outline: none;
     color: #d8d8d8;
-}
-.scoda-swiper .swiper-pagination-bullet-active {
+} */
+/* .scoda-swiper .swiper-pagination-bullet-active {
     color: #212121;
     border-radius: 100%;
     border: 3px solid #212121;
@@ -2180,7 +2187,7 @@ ul#portfolio-grid.two-column>li{
 
 .portfolio-style-two .swiper-slide{
     width: 40%!important;
-}
+} */
 @media (max-width:480px){
   .portfolio-style-two .swiper-slide{
     width: 100%!important;
@@ -3441,7 +3448,7 @@ a.readmore > span {
 
 .footer-main{
   padding:60px 0 60px;
-  background-color: #212121;
+  background-color: #1e1e1e;
   position: relative;
 }
 
@@ -3511,8 +3518,8 @@ a.readmore > span {
 
 .footer-copyright{
    padding: 30px 0;
-   background-color: #232323;
-}
+   background-color: #1e1e1e;
+   border-top: solid 1px #bbb}
 
 .copy-right{margin-top:5px;color:#fff;}
 
@@ -4748,11 +4755,11 @@ ul.footer-gallery li img {
 {
     opacity: 1;
 }
-.slick-prev.slick-disabled:before,
+/* .slick-prev.slick-disabled:before,
 .slick-next.slick-disabled:before
 {
     opacity: .25;
-}
+} */
 
 .slick-prev:before,
 .slick-next:before
@@ -6344,16 +6351,30 @@ form.register {
 	Swiper
 -------------------------------------------*/
 
-.swiper-container {
+.swiper-button-next,
+.swiper-button-prev {
+  width: 1px !important; /* Ajusta el ancho de la flecha según tu diseño */
+  height: 10px; /* Ajusta el alto de la flecha según tu diseño */
+  color: #333; /* Cambia el color de la flecha según tu diseño */
+}
+
+/* Estilos al pasar el mouse sobre las flechas */
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  color: #ff0000; /* Cambia el color al pasar el mouse por encima */
+}
+
+/* .swiper-container {
   width: 100%;
   height: 100%;
+  margin-top: 1rem;
 }
 .swiper-slide {
   text-align: center;
   font-size: 18px;
   background: #fff;
 
-  /* Center slide text vertically */
+  /* Center slide text vertically
   display: -webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -6366,7 +6387,7 @@ form.register {
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center;
-}
+}  */
 
 .new-badge{position: absolute;top: -8px;right: 8px;padding:4px 15px;background: rgba(201,75,75);
 background: -moz-linear-gradient(45deg, rgba(201,75,75) 0%, rgba(75,19,79) 100%);
@@ -6376,3 +6397,5 @@ background: -o-linear-gradient(45deg, rgba(201,75,75) 0%, rgba(75,19,79) 100%);
 background: -ms-linear-gradient(45deg, rgba(201,75,75) 0%, rgba(75,19,79) 100%);
 background: linear-gradient(45deg, rgba(201,75,75) 0%, rgba(75,19,79) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e91e63', endColorstr='#ce1500', GradientType=1 );border-radius: 4px;color: #fff;text-transform: uppercase;z-index: 99;}
+
+
