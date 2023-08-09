@@ -210,10 +210,17 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
 
 section {
 	padding-top:120px;
-	padding-bottom:120px;
+	/* padding-bottom:120px; */
 	position: relative;
 	z-index: 10;
 	background:#1E1E1E;
+}
+
+#quehacemos {
+  padding-bottom:120px;
+}
+#portfolio-all {
+  padding-bottom:120px;
 }
 
 .section-heading {
@@ -221,6 +228,16 @@ section {
     margin: auto;
     float: none;
     padding-bottom: 20px;
+      width: 50%;
+}
+
+.welcome-text {
+  font-family: 'Prompt';
+  font-size: 25px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.2;
+
 }
 
 .section-heading h2 {
@@ -234,7 +251,7 @@ section {
 .quehacemos-titleprincipal { 
   /* border: solid #EAE3DA 1px; 
   border-radius: 10px;*/
-  padding-top:10px;
+
   padding-bottom:10px;
 
 }
@@ -6353,15 +6370,15 @@ form.register {
 
 .swiper-button-next,
 .swiper-button-prev {
-  width: 1px !important; /* Ajusta el ancho de la flecha según tu diseño */
-  height: 10px; /* Ajusta el alto de la flecha según tu diseño */
+  top: 3rem !important;
+
   color: #333; /* Cambia el color de la flecha según tu diseño */
 }
 
 /* Estilos al pasar el mouse sobre las flechas */
 .swiper-button-next:hover,
 .swiper-button-prev:hover {
-  color: #ff0000; /* Cambia el color al pasar el mouse por encima */
+  color: #FA4319; /* Cambia el color al pasar el mouse por encima */
 }
 
 /* Estilos para el contenedor del slider */
@@ -6405,6 +6422,7 @@ form.register {
   opacity: 0; /* Agrega opacidad inicial */
   transform: translateY(100%); /* Mueve el caption hacia abajo */
   transition: opacity 0.5s ease, transform 0.5s ease; /* Agrega transición suave */
+  background-color: #FA4319;
 }
 
 /* Muestra el "slide caption" al hacer hover en escritorio */
