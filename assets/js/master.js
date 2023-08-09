@@ -280,8 +280,8 @@ jQuery(function ($) {
         nextEl: ".swiper-button-next", // Selector de la flecha siguiente
         prevEl: ".swiper-button-prev", // Selector de la flecha anterior
       },
+     
     });
-
     /* ===== Go to Top ===== */
 
     if ($("#back-to-top").length) {

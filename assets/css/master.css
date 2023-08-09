@@ -6369,21 +6369,60 @@ form.register {
   position: relative; /* Asegura que los elementos posicionados internamente sean relativos a este contenedor */
 }
 
-.swiper-slide img{
-border-radius: 15px;
+/* Estilos para la imagen */
+.swiper-slide img {
+  border-radius: 25px;
 }
-/* Estilos para el texto superpuesto */
+
+/* Estilos para el contenedor del slider */
+.swiper-container {
+  position: relative;
+}
+
+.swiper-card {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-card-front {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+/* Estilos para el "slide caption" */
 .slide-caption {
   position: absolute;
-  top: 85%; /* Ajusta según la posición vertical deseada */
-  left: 50%; /* Ajusta según la posición horizontal deseada */
-  transform: translate(-50%, -50%); /* Centra el texto */
-  width: 95%;
-  background-color: rgba(0, 0, 0, 0.7);  /*Fondo semitransparente para el texto */
-  color: white; /* Color del texto */
-  padding: 15px; /* Espaciado interno del texto */
-  border-radius: 5px; /* Bordes redondeados */
-  font-size: 14px; /* Tamaño de fuente */
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+  display: none; /* Oculta el "slide caption" por defecto */
+  opacity: 0; /* Agrega opacidad inicial */
+  transform: translateY(100%); /* Mueve el caption hacia abajo */
+  transition: opacity 0.5s ease, transform 0.5s ease; /* Agrega transición suave */
+}
+
+/* Muestra el "slide caption" al hacer hover en escritorio */
+@media (min-width: 769px) {
+  .swiper-card-front:hover .slide-caption {
+    display: block;
+    opacity: 1; /* Cambia la opacidad al hacer hover */
+    transform: translateY(0); /* Muestra el caption */
+  }
+}
+
+/* Muestra siempre el "slide caption" en móviles */
+@media (max-width: 768px) {
+  .slide-caption {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /* .swiper-container {
