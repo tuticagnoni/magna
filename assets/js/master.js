@@ -1,6 +1,5 @@
 /* ===== LOADER OVERLAY ===== */
 
-
 jQuery(function ($) {
   "use strict";
 
@@ -281,8 +280,18 @@ jQuery(function ($) {
         nextEl: ".swiper-button-next", // Selector de la flecha siguiente
         prevEl: ".swiper-button-prev", // Selector de la flecha anterior
       },
-    
-     
+
+      breakpoints: {
+        300: {
+          slidesPerView: 1, // Número de diapositivas en pantallas de 768px o menos
+        },
+        768: {
+          slidesPerView: 2, // Número de diapositivas en pantallas de 768px o menos
+        },
+        1024: {
+          slidesPerView: 3, // Número de diapositivas en pantallas de 1024px o menos
+        },
+      },
     });
     /* ===== Go to Top ===== */
 

@@ -240,6 +240,17 @@ section {
 
 }
 
+@media (max-width: 767px) {
+  .section-heading {
+      padding-bottom: 1rem;
+      width: 70%;
+  }
+
+  .welcome-text {
+    font-size: 18px;
+  }
+}
+
 .section-heading h2 {
   font-family: 'Collingar', sans-serif;
   color: #EAE3DA;
@@ -654,7 +665,7 @@ body {
 }
 .ticker {
   display: inline-block;
-  margin-top: 13px;
+  margin-top: 1.5rem;
   animation: marquee 80s linear infinite;
 }
 .item-collection-1 {
@@ -1319,7 +1330,7 @@ button:focus {
     font-weight: 400;
     font-family: 'Prompt', sans-serif;
     letter-spacing: 1px;
-    float: right;
+
 }
 
 .btn + .btn {
@@ -1926,9 +1937,7 @@ ul#portfolio-grid.two-column>li{
     .section-heading h4{
       font-size: 15px;
     }
-    #work {
-      background-color: #000;
-    }
+
     .work-item-wrap .work-item-info h3{
       font-size: 14px!important;
     }
@@ -2618,6 +2627,7 @@ img.mfp-img {
   right: 0;
   padding-top: 0;
 }
+
 
 
 .mfp-fade.mfp-bg {
@@ -6185,10 +6195,13 @@ form.register {
 /* ----------------------------------------
 	Call to Action
 -------------------------------------------*/
-.cta-block hr{height: 1px;border-top: 1px solid #ebebeb;display: block;position: relative;top: 1px;width: 100%;border-color: rgba(136,136,136,0.8);}
-.cta-heading-left h3{text-align: left; }
-.cta-heading-left .subtitle{color: #fff;text-transform: uppercase;font-family: 'Jost', sans-serif;font-weight: 400;}
-.cta-heading-left h3{font-size: 50px;color: #fff;font-family: Collingar;;font-weight: 700;line-height: 1.4;}
+.cta-heading-left h3{
+  text-align: left; 
+  font-size: 5rem; 
+  color: #fff; 
+  font-family: Collingar;
+  font-weight: 700;
+  line-height: 1.4;}
 
 .cta-heading-right{text-align: left;}
 .cta-heading-right .content-text{font-size: 18px;color: #fff;font-family: 'Jost', sans-serif;font-weight: 400;line-height: 1.5;}
