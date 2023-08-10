@@ -3429,7 +3429,7 @@ a.readmore > span {
 }
 
 .comments-info a:hover{
-  color: #d42e22;
+  color: #FA4319;
   text-decoration: none;
 }
 
@@ -3449,6 +3449,11 @@ a.readmore > span {
 /*=============================================
                         Footer
 =============================================*/
+
+.footer-copyright {
+  margin-top: 4rem;
+}
+
 @media only screen and (min-width: 992px) {
   #footer-fixed {
     position: fixed;
@@ -6370,8 +6375,7 @@ form.register {
 
 .swiper-button-next,
 .swiper-button-prev {
-  top: 3rem !important;
-
+  top: 4.3rem !important;
   color: #333; /* Cambia el color de la flecha según tu diseño */
 }
 
@@ -6416,13 +6420,13 @@ form.register {
   color: white;
   padding: 10px;
   border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.54);
   font-size: 16px;
   text-align: center;
   display: none; /* Oculta el "slide caption" por defecto */
   opacity: 0; /* Agrega opacidad inicial */
   transform: translateY(100%); /* Mueve el caption hacia abajo */
   transition: opacity 0.5s ease, transform 0.5s ease; /* Agrega transición suave */
-  background-color: #FA4319;
 }
 
 /* Muestra el "slide caption" al hacer hover en escritorio */
