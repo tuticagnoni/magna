@@ -435,7 +435,7 @@ nav.bootsnav.navbar-sidebar ul.nav {
 /*=============================================
 			Sliders and Hero Section
 =============================================*/
-.hero-text{
+/* .hero-text{
 	display: table-cell;
     vertical-align: middle;
     position: relative;
@@ -454,7 +454,58 @@ nav.bootsnav.navbar-sidebar ul.nav {
 
 .hero-text h2 {
 	font-size:65px;
+} */
+
+#hero {
+  width: 100vw;
+  height: 100vh; 
+  position: relative;
 }
+
+.memphis0 {
+  position: absolute;
+  width: 15%;
+  top: 30%; 
+  left: 5%; 
+  z-index: 1; 
+}
+
+.memphis1 {
+  position: absolute;
+  width: 80%;
+  top: -20%; 
+  left: 100px; 
+  z-index: 0; 
+}
+
+.memphis2 {
+  position: absolute;
+  top: 60%; 
+  left: 70%; 
+  z-index: 1; 
+}
+
+.hero-title {
+  font-family: Collingar;
+  font-size: 1500%;
+  position: absolute;
+  top: 30%; 
+  left: 35%; 
+  z-index: 1; 
+}
+
+.hero-text {
+  font-size: 300%;
+  color: white;
+  position: absolute;
+  top: 56%; 
+  left: 43%; 
+  z-index: 2; 
+}
+
+
+
+
 
 .dark-bg{background-color:#1e1e1e;}
 .white-bg{background-color: #fff;}
@@ -3914,7 +3965,7 @@ ul.footer-gallery li img {
 	background:rgba(255, 255, 255, 1);
 }
 
-.slider-bg .flexslider li h1,
+/* .slider-bg .flexslider li h1,
 .slider-bg .flexslider li h2,
 .slider-bg .flexslider li .hero-text p,
 .slider-bg .flexslider li .hero-text h3,
@@ -3931,9 +3982,9 @@ ul.footer-gallery li img {
 		animation-fill-mode: both;
 		-webkit-animation-name: fadeInUp;
 		animation-name: fadeInUp;
-}
+} */
 
-.slider-bg .flex-active-slide .hero-text h1,
+/* .slider-bg .flex-active-slide .hero-text h1,
 .slider-bg .flex-active-slide .hero-text h2,
 .slider-bg .flex-active-slide .hero-text h3,
 .slider-bg .flex-active-slide .hero-text h4,
@@ -3952,9 +4003,9 @@ ul.footer-gallery li img {
 		animation-fill-mode: both;
 		-webkit-animation-name: fadeInUp;
 		animation-name: fadeInUp;
-}
+} */
 
-.slider-bg .flex-active-slide .hero-text h2, .bg-video h2 .hero-text h2 {
+/* .slider-bg .flex-active-slide .hero-text h2, .bg-video h2 .hero-text h2 {
 		-webkit-animation-delay: .5s;
 		animation-delay: .5s;
 }
@@ -3962,7 +4013,7 @@ ul.footer-gallery li img {
 .slider-bg .flex-active-slide .hero-text p, .bg-video .hero-text p {
 		-webkit-animation-delay: .6s;
 		animation-delay: .6s;
-}
+} */
 
 .slider-bg {
 	border: 0;
@@ -4024,7 +4075,7 @@ ul.footer-gallery li img {
     z-index: 1;
 }
 
-.hero-text-wrap {
+/* .hero-text-wrap {
 	display: table;
     table-layout: fixed;
     height: 100%;
@@ -4062,7 +4113,7 @@ ul.footer-gallery li img {
     height: 100vh;
     position: absolute;
     z-index: auto;
-}
+} */
 
 
 .gradient-overlay-bg {
@@ -4085,10 +4136,10 @@ ul.footer-gallery li img {
 .full-screen-bg.hero-banner{
   background-color: #fff;
 }
-.full-screen-bg.hero-banner .hero-text-wrap{
+/* .full-screen-bg.hero-banner .hero-text-wrap{
   background-color:transparent;
   z-index: 999;
-}
+} */
 
 .full-screen-bg.hero-banner:before, .full-screen-bg.hero-banner:after{
   content: '';
@@ -5587,14 +5638,14 @@ font-family: 'Jost', sans-serif;
     height: 100%;
 }
 
-.slider-bg-static .hero-text {
+/* .slider-bg-static .hero-text {
     display: table-cell;
     vertical-align: middle;
     position: relative;
     width: 100%;
     z-index: 10;
     color: #fff;
-}
+} */
 
 
 /* ----------------------------------------
