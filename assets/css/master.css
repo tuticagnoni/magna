@@ -462,6 +462,7 @@ nav.bootsnav.navbar-sidebar ul.nav {
   position: relative;
 }
 
+/*rayon azul*/
 .memphis0 {
   position: absolute;
   width: 15%;
@@ -470,6 +471,7 @@ nav.bootsnav.navbar-sidebar ul.nav {
   z-index: 1; 
 }
 
+/*rosa*/
 .memphis1 {
   position: absolute;
   width: 80%;
@@ -478,6 +480,7 @@ nav.bootsnav.navbar-sidebar ul.nav {
   z-index: 0; 
 }
 
+/*naranja*/
 .memphis2 {
   position: absolute;
   top: 60%; 
@@ -501,6 +504,151 @@ nav.bootsnav.navbar-sidebar ul.nav {
   top: 56%; 
   left: 43%; 
   z-index: 2; 
+}
+
+/*hero mediaquerys*/
+
+/* Pantallas pequeñas */
+@media (max-width: 576px) {
+  .memphis0 {
+    position: absolute;
+    width: 15%;
+    top: 50%; 
+    left: 5%; 
+    z-index: 1; 
+  }
+  
+  .memphis1 {
+    position: absolute;
+    width: 100%;
+    top: 10%; 
+    left: 50px; 
+    z-index: 0; 
+  }
+  
+  .memphis2 {
+    position: absolute;
+    width: 13%;
+    top: 60%; 
+    left: 80%; 
+    z-index: 1; 
+  }
+  
+  .hero-title {
+    font-family: Collingar;
+    font-size: 350%;
+    position: absolute;
+    top: 50%; 
+    left: 35%; 
+    z-index: 1; 
+  }
+  
+  .hero-text {
+    font-size: 80%;
+    color: white;
+    position: absolute;
+    top: 65%; 
+    left: 43%; 
+    z-index: 2; 
+  }
+}
+
+/* Tablets en orientación horizontal y pantallas medianas */
+@media (min-width: 577px) and (max-width: 991px) {
+  
+  .memphis0 {
+    position: absolute;
+    width: 15%;
+    top: 40%; 
+    left: 5%; 
+    z-index: 1; 
+  }
+  
+  .memphis1 {
+    position: absolute;
+    width: 80%;
+    top: 0%; 
+    left: 80px; 
+    z-index: 0; 
+  }
+  
+  .memphis2 {
+    position: absolute;
+    width: 13%;
+    top: 60%; 
+    left: 80%; 
+    z-index: 1; 
+  }
+  
+  .hero-title {
+    font-family: Collingar;
+    font-size: 500%;
+    position: absolute;
+    top: 30%; 
+    left: 35%; 
+    z-index: 1; 
+  }
+  
+  .hero-text {
+    font-size: 100%;
+    color: white;
+    position: absolute;
+    top: 50%; 
+    left: 43%; 
+    z-index: 2; 
+  }
+
+}
+
+/* Pantallas grandes */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .memphis0 {
+    position: absolute;
+    width: 15%;
+    top: 30%; 
+    left: 5%; 
+    z-index: 1; 
+  }
+  
+  .memphis1 {
+    position: absolute;
+    width: 70%;
+    top: -28%; 
+    left: 100px; 
+    z-index: 0; 
+  }
+  
+  .memphis2 {
+    position: absolute;
+    width: 13%;
+    top: 60%; 
+    left: 70%; 
+    z-index: 1; 
+  }
+  
+  .hero-title {
+    font-family: Collingar;
+    font-size: 800%;
+    position: absolute;
+    top: 30%; 
+    left: 35%; 
+    z-index: 1; 
+  }
+  
+  .hero-text {
+    font-size: 150%;
+    color: white;
+    position: absolute;
+    top: 60%; 
+    left: 43%; 
+    z-index: 2; 
+  }
+  
+}
+
+/* Pantallas extra grandes (por ejemplo, monitores amplios) */
+@media (min-width: 1200px) {
+  /* Agrega aquí tus estilos para pantallas extra grandes */
 }
 
 
