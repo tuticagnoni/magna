@@ -223,7 +223,7 @@ section {
 .section-heading h2 {
   font-family: 'Collingar', sans-serif;
   color: #EAE3DA;
-	/* font-weight: 400; */
+	font-weight: 700;
   margin-bottom: 25px;
   font-size: 50px;
 }
@@ -231,9 +231,7 @@ section {
 .quehacemos-titleprincipal { 
   /* border: solid #EAE3DA 1px; 
   border-radius: 10px;*/
-
   padding-bottom:10px;
-
 }
 
 
