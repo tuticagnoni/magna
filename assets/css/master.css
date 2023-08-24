@@ -603,7 +603,7 @@ nav.bootsnav.navbar-sidebar ul.nav {
   
   .hero { 
     grid-area: 1 / 1 / 4 / 5; 
-    background:#1E1E1E;s}
+    background:#1E1E1E;}
   
   .pink { 
     grid-area: 1 / 2 / 4 / 5; }
@@ -693,7 +693,7 @@ nav.bootsnav.navbar-sidebar ul.nav {
   
   .hero { 
     grid-area: 1 / 1 / 4 / 5; 
-    background:#1E1E1E;s}
+    background:#1E1E1E;}
   
   .pink { 
     grid-area: 1 / 2 / 4 / 5; }
@@ -909,7 +909,6 @@ nav.bootsnav.navbar-sidebar ul.nav {
 
 .box-shadow {box-shadow: 0 10px 30px 5px rgba(17,21,23,.1);}
 
-.box-shadow-hover{}
 .box-shadow-hover:hover{box-shadow: 0 10px 30px 5px rgba(17,21,23,.1);}
 .member-socialicons{
     overflow: hidden;
@@ -1549,60 +1548,8 @@ input.search-bar-top:-moz-placeholder { color: #fff!important; }
 	padding-right: 120px;
 }
 
-/* Height Pixels */
 
-.height-1px {height: 1px!important}
-.height-2px {height: 2px!important}
-.height-3px {height: 3px!important}
-.height-4px {height: 4px!important}
-.height-5px {height: 5px!important}
-.height-6px {height: 6px!important}
-.height-7px {height: 7px!important}
-.height-8px {height: 8px!important}
-.height-9px {height: 9px!important}
-.height-10px {height: 10px!important}
-.height-80px {height: 80px}
-.height-90px {height: 90px}
-.height-100px {height: 100px}
-.height-150px {height: 150px}
-.height-200px {height: 200px}
-.height-250px {height: 250px}
-.height-300px {height: 300px}
-.height-350px {height: 350px}
-.height-400px {height: 400px}
-.height-450px {height: 450px}
-.height-500px {height: 500px!important;}
-.height-550px {height: 550px}
-.height-600px {height: 600px}
-.height-650px {height: 650px!important;}
-.height-700px {height: 700px}
-.height-800px {height: 800px}
 
-/* Height Percentage */
-
-.height-10-percent {height: 10%}
-.height-20-percent {height: 20%}
-.height-30-percent {height: 30%}
-.height-40-percent {height: 40%}
-.height-50-percent {height: 50%}
-.height-60-percent {height: 60%}
-.height-70-percent {height: 70%}
-.height-80-percent {height: 80%}
-.height-90-percent {height: 90%}
-.height-100-percent {height: 100% !important}
-.height-auto {height:auto !important}
-.max-height-100 {max-height: 100%}
-.vh-height{height: 100vh;}
-.centerize-col{float: none!important;margin-left: auto;margin-right: auto;}
-
-.border-radius-5 {border-radius:5px;}
-.border-radius-10 {border-radius:10px;}
-.border-radius-15 {border-radius:15px;}
-.border-radius-20 {border-radius:20px;}
-.border-radius-25 {border-radius:25px;}
-.remove-padding {padding: 0!important;}
-.remove-margin {margin: 0!important;}
-.img-responsive, .full-width{width:100%;}
 
 .btn,
 .form-control,
@@ -2056,7 +2003,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee3838', end
 /*=============================================
                         Counter
 =============================================*/
-.counter{}
+
 .counter h2{
     margin:15px 0 20px;
     font-size:60px;
@@ -3420,8 +3367,7 @@ img.mfp-img {
 /*=============================================
                   Theme Feature
 =============================================*/
-.theme-feature{
-}
+
 .theme-feature i.fa {
     color: #fff;
     border-radius: 50%;
@@ -5223,6 +5169,9 @@ ul.footer-gallery li img {
 /*=======================================================
       Client Logo
 ========================================================*/
+client-slider {
+  background-color: #000000;
+}
 .client-logo {
     margin: 0px 15px;
 }
@@ -5644,7 +5593,6 @@ ul.social-top li a{
       Widgets / Shortcodes
 ========================================================*/
 
-.light-tabs {}
 .light-tabs .nav-tabs {
     border-top: 0px solid #f1f1f1;
     border-bottom: 0;
@@ -5698,7 +5646,6 @@ font-family: 'Jost', sans-serif;
 
 
 
-.icon-tabs {}
 .icon-tabs .nav-tabs {
     border-top: 0px solid #f1f1f1;
     border-bottom: 0;
@@ -6441,7 +6388,6 @@ form.register {
 	color: #fff;
 }
 
-.search-domain{}
 .search-domain h3 {
 	line-height: 35px;
     margin-top: 0;
@@ -6526,8 +6472,7 @@ form.register {
 -------------------------------------------*/
 
 
-.fitness-section {
-}
+
 
 .fitness-section h1 {
 	font-size:80px;
