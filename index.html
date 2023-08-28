@@ -663,42 +663,30 @@
 
 
     const designElements = document.querySelectorAll('.designElements');
-
     const timeline = gsap.timeline();
 
     function animateElementWithDelay(elements, index) {
-  gsap.fromTo(
-    elements,
-    { opacity: 0, y: -20 },
-    { opacity: 1, y: 0, duration: 5, ease: 'Power1.easeOut' }
-  );
-}
-
-function animateElementsWithDelay() {
-  designElements.forEach((element, index) => {
-    const imgs = element.querySelectorAll('img');
-    const text = element.querySelector('.text'); // Selecciona el elemento de texto
-
-    const allElements = [...imgs, text]; // Combina las imágenes y el texto en una sola lista
-    animateElementWithDelay(allElements, index);
-  });
-}
-
-window.addEventListener('load', () => {
-  animateElementsWithDelay();
-});
-
-
-<<<<<<< Updated upstream
-=======
-      timeline.fromTo(
-        [img, text],
+      gsap.fromTo(
+        elements,
         { opacity: 0, y: -20 },
-        { opacity: 1, y: 0, duration: 1, ease: 'power2.out' },
-        `+=${index}`
+        { opacity: 1, y: 0, duration: 4, ease: 'Power2.easeOut' }
       );
-    }); a
->>>>>>> Stashed changes
+    }
+
+    function animateElementsWithDelay() {
+      designElements.forEach((element, index) => {
+        const imgs = element.querySelectorAll('img');
+        const text = element.querySelector('.text'); // Selecciona el elemento de texto
+
+        const allElements = [...imgs, text]; // Combina las imágenes y el texto en una sola lista
+        animateElementWithDelay(allElements, index);
+      });
+    }
+
+    window.addEventListener('load', () => {
+      animateElementsWithDelay();
+    });
+
 
     // Efecto paralaje sutil con el mouse
     document.addEventListener('mousemove', (e) => {
