@@ -506,12 +506,14 @@ nav.bootsnav.navbar-sidebar ul.nav {
   justify-content: center;
   align-items: center;
   gap: 1px;
+  z-index: 4;
 }
 
   .hero-title h1 {
     font-family: Collingar;
     font-size: 150px;
     color: #eae3da;
+
   }
 
   .hero-title p {
@@ -2480,11 +2482,13 @@ ul#portfolio-grid.two-column>li{
     width: 100%!important;
   }
 }
-@media (max-width:810px){
-  .portfolio-style-two .swiper-slide{
-    width: 100%!important;
+@media (max-width:768px){
+  .swiper-slide {
+    margin: 10px; /* Agrega el margen que desees */
   }
 }
+
+
 
 .portfolio-style-two .work-item-wrap .work-item-info{
   border-radius: 15px;
@@ -2962,11 +2966,6 @@ img.mfp-img {
     transition: all 0.4s ease-out;
 }
 
-
-
-.project-image {
-}
-
 .project-info {
     list-style: none;
     padding-top: 50px;
@@ -3047,7 +3046,7 @@ img.mfp-img {
 }
 
 .portfolio-right .project-detail-box li a:hover {
-	color:#d42e22;
+	color:#FA4319;
 }
 
 .project-type-list {
@@ -3056,7 +3055,7 @@ img.mfp-img {
 
 .project-type-list li {
     padding: 10px 0;
-    border-bottom: 1px solid #E8E8E8;
+    border-bottom: 1px solid #FA4319;
     font-weight: 300;
     font-size: 14px;
 	list-style: none;
@@ -3095,7 +3094,7 @@ img.mfp-img {
 .pricing-box h2 {
     margin-top: 25px;
     margin-bottom: 25px;
-    color: #d42e22;
+    color: #FA4319;
     font-weight: 700;
 }
 .pricing-box h2 sup {
@@ -3465,7 +3464,7 @@ a.readmore > span {
   width: 35px;
   height: 35px;
   line-height: 35px;
-  background-color: rgba(23, 23, 23, 0.5);
+  /* background-color: rgba(23, 23, 23, 0.5); */
   border-radius: 100%;
   text-align: center;
   margin-top: -15px;
@@ -3481,7 +3480,7 @@ a.readmore > span {
 
 .blog-grid-slider .owl-prev .fa, .portfolio-slider .owl-prev .fa
 .blog-grid-slider .owl-next .fa, .portfolio-slider .owl-next .fa{
-  color: rgba(0, 0, 0, 0.7);
+  color: #1E1E1E !important;
 }
 
 .blog-grid-slider .owl-prev:hover, .portfolio-slider .owl-prev:hover,
@@ -3491,7 +3490,7 @@ a.readmore > span {
 
 .blog-grid-slider .owl-prev:hover .fa, .portfolio-slider .owl-prev:hover .fa,
 .blog-grid-slider .owl-next:hover .fa, .portfolio-slider .owl-next:hover .fa{
-  color: #fff;
+  color: #1E1E1E !important;
 }
 
 .blog-grid-video .video-alpha .video-play {
@@ -5116,15 +5115,11 @@ ul.footer-gallery li img {
 {
     position: absolute;
     bottom: -25px;
-
     display: block;
-
     width: 100%;
     padding: 0;
     margin: 0;
-
     list-style: none;
-
     text-align: center;
 }
 .slick-dots li {
@@ -5154,7 +5149,6 @@ ul.footer-gallery li img {
     outline: none;
 }
 
-
 .white-testi .slick-prev:before,
 .white-testi .slick-next:before
 {
@@ -5165,27 +5159,17 @@ ul.footer-gallery li img {
 	background-color:#fff;
 }
 
-
 /*=======================================================
       Client Logo
 ========================================================*/
-client-slider {
-  background-color: #000000;
-}
 .client-logo {
     margin: 0px 15px;
 }
 
 .client-logo img {
     margin: auto;
-	opacity: 0.7;
-    filter: alpha(opacity=70);
 }
 
-.client-logo img:hover {
-	opacity: 1.0;
-    filter: alpha(opacity=100);
-}
 
 /*=======================================================
       Title Hero Backgrounds
@@ -6644,6 +6628,8 @@ form.register {
 /* ----------------------------------------
 	Swiper
 -------------------------------------------*/
+
+
 
 .swiper-button-next,
 .swiper-button-prev {
