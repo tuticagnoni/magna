@@ -660,6 +660,8 @@
 
   <script>
 
+
+
     const designElements = document.querySelectorAll('.designElements');
 
     const timeline = gsap.timeline();
@@ -687,6 +689,16 @@ window.addEventListener('load', () => {
 });
 
 
+<<<<<<< Updated upstream
+=======
+      timeline.fromTo(
+        [img, text],
+        { opacity: 0, y: -20 },
+        { opacity: 1, y: 0, duration: 1, ease: 'power2.out' },
+        `+=${index}`
+      );
+    }); a
+>>>>>>> Stashed changes
 
     // Efecto paralaje sutil con el mouse
     document.addEventListener('mousemove', (e) => {
@@ -703,113 +715,118 @@ window.addEventListener('load', () => {
 
     timeline.play();
 
-    var revapi1078,
-      tpj = jQuery;
 
-    tpj(document).ready(function () {
-      /* ===== REVOLUTION SLIDER MAIN DEMO ===== */
 
-      if (tpj("#rev_slider_landing_custom").revolution == undefined) {
-        revslider_showDoubleJqueryError("#rev_slider_landing_custom");
-      } else {
-        $("#rev_slider_landing_custom").show().revolution({
-          sliderType: "standard",
-          jsFileLocation: "revolution/js/",
-          sliderLayout: "fullscreen",
-          dottedOverlay: "none",
-          delay: 5000,
-          navigation: {
-            keyboardNavigation: "off",
-            keyboard_direction: "horizontal",
-            mouseScrollNavigation: "off",
-            mouseScrollReverse: "default",
-            onHoverStop: "off",
-            touch: {
-              touchenabled: "on",
-              swipe_threshold: 75,
-              swipe_min_touches: 1,
-              swipe_direction: "horizontal",
-              drag_block_vertical: false
-            }
-            ,
-            arrows: {
-              style: "hades",
-              enable: false,
-              hide_onmobile: true,
-              hide_under: 600,
-              hide_onleave: true,
-              hide_delay: 200,
-              hide_delay_mobile: 1200,
-              tmp: '<div class="tp-arr-allwrapper"><div class="tp-arr-imgholder"></div></div>',
-              left: {
-                h_align: "left",
-                v_align: "center",
-                h_offset: 30,
-                v_offset: 0
-              },
-              right: {
-                h_align: "right",
-                v_align: "center",
-                h_offset: 30,
-                v_offset: 0
-              }
-            }
-            ,
-            bullets: {
-              enable: false,
-              hide_onmobile: false,
-              hide_under: 600,
-              style: "uranus",
-              hide_onleave: true,
-              hide_delay: 200,
-              hide_delay_mobile: 1200,
-              direction: "horizontal",
-              h_align: "center",
-              v_align: "bottom",
-              h_offset: 0,
-              v_offset: 30,
-              space: 20,
-              tmp: '<span class="tp-bullet-inner"></span>'
-            }
-          },
-          viewPort: {
-            enable: false,
-            outof: "pause",
-            visible_area: "90%",
-            presize: false
-          },
-          responsiveLevels: [1240, 1024, 778, 480],
-          visibilityLevels: [1240, 1024, 778, 480],
-          gridwidth: [1240, 1024, 778, 480],
-          gridheight: [525, 600, 500, 400],
-          lazyType: "none",
-          parallax: {
-            type: "mouse",
-            origo: "slidercenter",
-            speed: 2000,
-            levels: [2, 3, 4, 5, 6, 7, 12, 16, 10, 50, 47, 48, 49, 50, 51, 55],
-          },
-          shadow: 0,
-          spinner: "off",
-          stopLoop: "off",
-          stopAfterLoops: -1,
-          stopAtSlide: -1,
-          shuffle: "off",
-          autoHeight: "off",
-          hideThumbsOnMobile: "off",
-          hideSliderAtLimit: 0,
-          hideCaptionAtLimit: 0,
-          hideAllCaptionAtLilmit: 0,
-          debugMode: false,
-          fallbacks: {
-            simplifyAll: "off",
-            nextSlideOnWindowFocus: "off",
-            disableFocusListener: false,
-          }
-        });
-      }
+    // var revapi1078,
+    //   tpj = jQuery;
 
-    });
+    // tpj(document).ready(function () {
+    /* ===== REVOLUTION SLIDER MAIN DEMO ===== */
+
+  //     if (tpj("#rev_slider_landing_custom").revolution == undefined) {
+  //       revslider_showDoubleJqueryError("#rev_slider_landing_custom");
+  //     } else {
+  //       $("#rev_slider_landing_custom").show().revolution({
+  //         sliderType: "standard",
+  //         jsFileLocation: "revolution/js/",
+  //         sliderLayout: "fullscreen",
+  //         dottedOverlay: "none",
+  //         delay: 5000,
+  //         navigation: {
+  //           keyboardNavigation: "off",
+  //           keyboard_direction: "horizontal",
+  //           mouseScrollNavigation: "off",
+  //           mouseScrollReverse: "default",
+  //           onHoverStop: "off",
+  //           touch: {
+  //             touchenabled: "on",
+  //             swipe_threshold: 75,
+  //             swipe_min_touches: 1,
+  //             swipe_direction: "horizontal",
+  //             drag_block_vertical: false
+  //           }
+  //           ,
+  //           arrows: {
+  //             style: "hades",
+  //             enable: false,
+  //             hide_onmobile: true,
+  //             hide_under: 600,
+  //             hide_onleave: true,
+  //             hide_delay: 200,
+  //             hide_delay_mobile: 1200,
+  //             tmp: '<div class="tp-arr-allwrapper">
+    // < div class="tp-arr-imgholder">
+      // </div>
+  // </div> ',
+  // left: {
+  // h_align: "left",
+  // v_align: "center",
+  // h_offset: 30,
+  // v_offset: 0
+  // },
+  // right: {
+  // h_align: "right",
+  // v_align: "center",
+  // h_offset: 30,
+  // v_offset: 0
+  // }
+  // }
+  // ,
+  // bullets: {
+  // enable: false,
+  // hide_onmobile: false,
+  // hide_under: 600,
+  // style: "uranus",
+  // hide_onleave: true,
+  // hide_delay: 200,
+  // hide_delay_mobile: 1200,
+  // direction: "horizontal",
+  // h_align: "center",
+  // v_align: "bottom",
+  // h_offset: 0,
+  // v_offset: 30,
+  // space: 20,
+  // tmp: '<span class="tp-bullet-inner"></span>'
+  // }
+  // },
+  // viewPort: {
+  // enable: false,
+  // outof: "pause",
+  // visible_area: "90%",
+  // presize: false
+  // },
+  // responsiveLevels: [1240, 1024, 778, 480],
+  // visibilityLevels: [1240, 1024, 778, 480],
+  // gridwidth: [1240, 1024, 778, 480],
+  // gridheight: [525, 600, 500, 400],
+  // lazyType: "none",
+  // parallax: {
+  // type: "mouse",
+  // origo: "slidercenter",
+  // speed: 2000,
+  // levels: [2, 3, 4, 5, 6, 7, 12, 16, 10, 50, 47, 48, 49, 50, 51, 55],
+  // },
+  // shadow: 0,
+  // spinner: "off",
+  // stopLoop: "off",
+  // stopAfterLoops: -1,
+  // stopAtSlide: -1,
+  // shuffle: "off",
+  // autoHeight: "off",
+  // hideThumbsOnMobile: "off",
+  // hideSliderAtLimit: 0,
+  // hideCaptionAtLimit: 0,
+  // hideAllCaptionAtLilmit: 0,
+  // debugMode: false,
+  // fallbacks: {
+  // simplifyAll: "off",
+  // nextSlideOnWindowFocus: "off",
+  // disableFocusListener: false,
+  // }
+  // });
+  // }
+
+  // });
   </script>
 
 </body>

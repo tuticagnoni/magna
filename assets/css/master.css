@@ -117,14 +117,18 @@ body {
 .great-font{font-family: 'Great Vibes', cursive;}
 .josefin-font{font-family: 'Josefin Sans', sans-serif;}
 
+nav.navbar.bootsnav ul.nav > li > a:hover {
+  color: #FA4319;
+}
+
 a {
     text-decoration: none;
-    color: #d42e22;
+    color: #FA4319;
 }
 a:hover, a:focus, a:active {
     outline: none;
     text-decoration: none;
-    color: #e91e63;
+    color: #FA4319;
 }
 ul {
   list-style: disc;
@@ -3549,12 +3553,12 @@ a.readmore > span {
 
 
 
-.search-form{
+.search-form {
   position: relative;
 }
 
 
-.search-field{
+.search-field {
   border-color: #e9e9e9!important;
   background:#fff;
 }
@@ -3567,7 +3571,7 @@ a.readmore > span {
 
 
 
-.widget_categories ul li:first-child, .widget_archive ul li:first-child{
+.widget_categories ul li:first-child, .widget_archive ul li:first-child {
   margin-top: 0;
 }
 
@@ -3812,7 +3816,7 @@ a.readmore > span {
    background-color: #1e1e1e;
    border-top: solid 1px #bbb}
 
-.copy-right{margin-top:5px;color:#fff;}
+.copy-right{margin-top:5px;color:text-right;}
 
 .footer-copyright ul.social-media{
   float:left;
@@ -3837,7 +3841,7 @@ a.readmore > span {
 }
 
 .footer-copyright ul.social-media li a:hover{
-  color: #d42e22;
+  color: #FA4319;
 }
 
 
@@ -5507,7 +5511,7 @@ ul.resume-slider li i {
 
 ul.resume-slider li h2 {
     font-size: 18px;
-    color: #d42e22;
+    color: #FA4319;
     margin-top: 8px;
     text-transform: uppercase;
 }
@@ -5533,7 +5537,7 @@ ul.social-media-dark li a{
 }
 
 ul.social-media-dark li a:hover{
-  color: #d42e22;
+  color: #FA4319;
 }
 
 
