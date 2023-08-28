@@ -93,7 +93,7 @@ body {
     color: #888;
     background: #1e1e1e;
     font-size:15px;
-	font-family: 'Prompt', sans-serif;
+    font-family: 'Prompt', sans-serif;
 }
 
 .wrapper {
@@ -1572,6 +1572,7 @@ input.search-bar-top:-moz-placeholder { color: #fff!important; }
 
 .btn-circle {
 	border-radius:25px;
+  justify-content: right;
 }
 
 .btn-rounded {
@@ -3958,7 +3959,7 @@ ul.footer-gallery li img {
 }
 
 #contact .contact-box {
-  border: solid white 1px;
+  border: solid #eae3da 1px;
   border-radius: 15px;
   background-color: #1E1E1E;
   margin: 5%;
@@ -3992,7 +3993,7 @@ ul.footer-gallery li img {
     font-weight: 300;
     color: #ffffff;
     background-color: #1E1E1E;
-    border: 1px solid #eee;
+    border: 1px solid #eae3da;
     border-radius: 20px;
 }
 .form-control:focus {
@@ -5170,6 +5171,12 @@ ul.footer-gallery li img {
     margin: auto;
 }
 
+@media (max-width: 479px) {
+  .client-logo {
+    transform: scale(1.3);
+}
+}
+
 
 /*=======================================================
       Title Hero Backgrounds
@@ -5208,47 +5215,6 @@ ul.footer-gallery li img {
     left: 0;
 }
 
-.portfolio-cover-bg {
-	background-image: url(../images/title-bg/title-hero-1.jpg);
-}
-
-.blog-cover-bg {
-	background-image: url(../images/title-bg/title-hero-2.jpg);
-}
-
-.about-cover-bg {
-	background-image: url(../images/title-bg/title-hero-3.jpg);
-}
-
-.service-cover-bg {
-	background-image: url(../images/title-bg/title-hero-4.jpg);
-}
-
-.contact-cover-bg {
-	background-image: url(../images/title-bg/title-hero-5.jpg);
-}
-
-.error-cover-bg {
-	background-image: url(../images/title-bg/title-hero-6.jpg);
-}
-
-.login-cover-bg {
-	background-image: url(../images/title-bg/title-hero-7.jpg);
-	height:100vh;
-}
-
-.coming-cover-bg {
-	background-image: url(../images/title-bg/title-hero-8.jpg);
-	height:100%;
-}
-
-.widget-cover-bg {
-	background-image: url(../images/title-bg/title-hero-9.jpg);
-}
-
-.shop-cover-bg {
-	background-image: url(../images/title-bg/title-hero-10.jpg);
-}
 
 .page-title {
     position: absolute;
@@ -6448,7 +6414,7 @@ form.register {
   line-height: 1.4;}
 
 .cta-heading-right{text-align: left;}
-.cta-heading-right .content-text{font-size: 18px;color: #fff;font-family: 'Jost', sans-serif;font-weight: 400;line-height: 1.5;}
+.cta-heading-right .content-text{font-size: 18px;color: #fff; font-weight: 400;line-height: 1.5;}
 
 
 /* ----------------------------------------
@@ -6677,7 +6643,7 @@ form.register {
   width: 100%;
   color: white;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 21px;
   background-color: rgba(0, 0, 0, 0.54);
   font-size: 16px;
   text-align: center;

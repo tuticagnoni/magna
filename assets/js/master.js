@@ -178,8 +178,8 @@ jQuery(function ($) {
 
     /* ~~~ Client Slider ~~~ */
     $("#client-slider").owlCarousel({
-      items: 6,
-      itemsDesktop: [1199, 6],
+      items: 5,
+      itemsDesktop: [1199, 5],
       itemsDesktopSmall: [980, 5],
       itemsTablet: [768, 4],
       itemsMobile: [479, 1],
@@ -188,6 +188,7 @@ jQuery(function ($) {
       loop: true,
       autoPlay: 3000,
       stopOnHover: true,
+      itemsScaleUp: true,
     });
 
     /* ~~~ Blog Slider ~~~ */
