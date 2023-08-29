@@ -661,7 +661,7 @@
   <script>
 
 
-
+    // Hero slider
     const designElements = document.querySelectorAll('.designElements');
     const timeline = gsap.timeline();
 
@@ -669,7 +669,7 @@
       gsap.fromTo(
         elements,
         { opacity: 0, y: -20 },
-        { opacity: 1, y: 0, duration: 4, ease: 'Power2.easeOut' }
+        { opacity: 1, y: 0, duration: 4, ease: 'SlowMo' }
       );
     }
 
@@ -689,13 +689,29 @@
 
 
     // Efecto paralaje sutil con el mouse
+
+    const parallaxElement = document.querySelectorAll('.pink');
     document.addEventListener('mousemove', (e) => {
       const x = e.clientX / window.innerWidth - 0.5;
       const y = e.clientY / window.innerHeight - 0.5;
 
-      gsap.to(designElements, {
-        x: x * 20,
-        y: y * 20,
+      gsap.to(parallaxElement, {
+        x: x * 40,
+        y: y * 40,
+        stagger: 0.1,
+        ease: 'power1.out',
+      });
+    });
+
+    
+    const parallaxElementText = document.querySelectorAll('.text');
+    document.addEventListener('mousemove', (e) => {
+      const x = e.clientX / window.innerWidth - 0.5;
+      const y = e.clientY / window.innerHeight - 0.5;
+
+      gsap.to(parallaxElementText, {
+        x: x * 40,
+        y: y * 40,
         stagger: 0.1,
         ease: 'power1.out',
       });
@@ -703,6 +719,28 @@
 
     timeline.play();
 
+    // Selecciona el elemento al que deseas aplicar el movimiento
+    const rotatingElement = document.querySelector('.orange');
+
+    // Crea una animación continua con el método to()
+    gsap.to(rotatingElement, {
+      rotation: 360, // Especifica el ángulo de giro (360 grados para una vuelta completa)
+      duration: 25,   // Ajusta la duración de cada vuelta
+      ease: 'linear', // Utiliza una animación lineal continua
+      repeat: -1,    // Repite infinitamente
+    });
+
+    // Selecciona el elemento al que deseas aplicar el movimiento
+    const movingElement = document.querySelector('.blue');
+
+    // Crea una animación continua con el método to() y yoyo:true
+    gsap.to(movingElement, {
+      x: 20, // Ajusta la cantidad de movimiento según tus preferencias
+      duration: 7, // Ajusta la duración de cada ciclo
+      ease: 'slowmo', // Utiliza una animación lineal continua
+      repeat: -1, // Repite infinitamente
+      yoyo: true, // Hace que la animación revierta automáticamente después de cada repetición
+    });
 
 
     // var revapi1078,
