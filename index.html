@@ -39,9 +39,9 @@
       <div class="container">
         <!--=== Start Atribute Navigation ===-->
         <div class="attr-nav">
-          <ul class="social-media-dark social-top">
+          <ul class="social-media social-top">
             <li><a href="#" class="icofont icofont-instagram"></a></li>
-            <li><a href=" #" class="icofont icofont-twitter"></a></li>
+            <li><a href=" #" class="icofont icofont-linkedin"></a></li>
           </ul>
         </div>
         <!--=== End Atribute Navigation ===-->
@@ -608,7 +608,7 @@
         <div class="row">
           <div class="col-md-6 col-xs-12">
             <ul class="social-media">
-              <li><a href="#" class="icofont icofont-twitter"></a></li>
+              <li><a href="#" class="icofont icofont-linkedin"></a></li>
               <li><a href="#" class="icofont icofont-instagram"></a></li>
             </ul>
           </div>
@@ -703,7 +703,7 @@
       });
     });
 
-    
+
     const parallaxElementText = document.querySelectorAll('.text');
     document.addEventListener('mousemove', (e) => {
       const x = e.clientX / window.innerWidth - 0.5;
@@ -728,6 +728,7 @@
       duration: 25,   // Ajusta la duración de cada vuelta
       ease: 'linear', // Utiliza una animación lineal continua
       repeat: -1,    // Repite infinitamente
+      yoyo: true,
     });
 
     // Selecciona el elemento al que deseas aplicar el movimiento
@@ -736,7 +737,7 @@
     // Crea una animación continua con el método to() y yoyo:true
     gsap.to(movingElement, {
       x: 20, // Ajusta la cantidad de movimiento según tus preferencias
-      duration: 7, // Ajusta la duración de cada ciclo
+      duration: 4, // Ajusta la duración de cada ciclo
       ease: 'slowmo', // Utiliza una animación lineal continua
       repeat: -1, // Repite infinitamente
       yoyo: true, // Hace que la animación revierta automáticamente después de cada repetición

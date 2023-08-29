@@ -51,15 +51,14 @@ nav.navbar.bootsnav{
 }
 
 nav.navbar.bootsnav ul.nav > li > a{
-    color: #ffffff;
+    color: #eae3da;
     background-color: transparent;
     outline: none;
     margin-bottom: -2px;
 	text-transform: uppercase;
-    font-family: 'Jost', sans-serif;
     letter-spacing: 0.10em;
 	font-size: 14px;
-  font-weight: 500;
+    font-weight: 400;
 }
 
 nav.navbar.bootsnav ul.nav li.megamenu-fw > a:hover,
@@ -77,7 +76,7 @@ nav.navbar.bootsnav .navbar-toggle{
     font-size: 18px;
     position: relative;
     top: 5px;
-	color:#FFF;
+	color:#eae3da;
 }
 
 nav.navbar.bootsnav ul.nav .dropdown-menu .dropdown-menu{
@@ -405,10 +404,6 @@ ul.cart-list > li.total > span{
 
 /* Side Menu
 =================================*/
-body{
-
-}
-
 body.on-side{
     margin-left: -280px;
 }
@@ -502,7 +497,7 @@ nav.navbar.bootsnav .share ul > li > a{
     -o-border-radius: 50%;
     border-radius: 50%;
     /* background-color: #cfcfcf; */
-    color: #fff;
+    color: #eae3da;
 }
 
 /* Transparent
@@ -736,7 +731,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     nav.navbar.bootsnav.navbar-transparent.white ul.nav > li > a,
     nav.navbar.bootsnav.no-background.white ul.nav > li > a{
         /* color tipografia navbar primero */
-        color: #fff;
+        color: #eae3da;
 		padding-top: 30px;
     	padding-bottom: 30px;
     }
