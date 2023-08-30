@@ -2957,10 +2957,7 @@ ul.footer-gallery li img {
 
 /* Estilos para la imagen */
 .swiper-slide img {
-   border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
+  border-radius: 25px;
 }
 
 /* Estilos para el contenedor del slider */
@@ -2987,7 +2984,10 @@ ul.footer-gallery li img {
   width: 100%;
   color: white;
   padding: 10px;
-
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
   background-color: rgba(0, 0, 0, 0.54);
   font-size: 16px;
   text-align: center;
