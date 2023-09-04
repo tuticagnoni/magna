@@ -3000,7 +3000,10 @@ ul.footer-gallery li img {
   width: 100%;
   color: white;
   padding: 10px;
-  border-radius: 21px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
   background-color: rgba(0, 0, 0, 0.54);
   font-size: 16px;
   text-align: center;
