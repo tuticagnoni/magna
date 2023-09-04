@@ -94,7 +94,23 @@ body {
     background: #1e1e1e;
     font-size:15px;
     font-family: 'Prompt', sans-serif;
+    cursor: url('../images/cursor.png'), auto;
 }
+
+/* Estilo del cursor personalizado para el cuerpo o contenedor principal */
+.custom-cursor {
+  cursor: url('../images/cursor.png'), auto;
+}
+.custom-cursor a{
+  cursor: url('../images/cursor.png'), auto;
+}
+.swiper-button-prev , .swiper-button-next {
+  cursor: url('../images/cursor.png'), auto;
+}
+#back-to-top {
+  cursor: url('../images/cursor.png'), auto;
+}
+
 
 .wrapper {
 	position: relative;
