@@ -213,9 +213,7 @@ section {
 	background:#1E1E1E;
 }
 
-#quehacemos {
-  padding-bottom:120px;
-}
+
 #portfolio-all {
   padding-bottom:120px;
 }
@@ -234,6 +232,7 @@ section {
   font-weight: 400;
   text-align: center;
   line-height: 1.2;
+  color: #eae3da !important;
 
 }
 
@@ -254,6 +253,10 @@ section {
 	font-weight: 700;
   margin-bottom: 25px;
   font-size: 50px;
+}
+
+#quehacemos {
+  padding-bottom:120px;
 }
 
 .quehacemos-titleprincipal { 
@@ -487,6 +490,7 @@ margin: 0 0 30px 0;
 /* Pantallas pequeñas */
 @media (max-width: 576px) {
   .container1 {
+    height: 100vh;
     display: grid; 
     grid-template-columns: 1fr 1fr; 
     grid-template-rows: 1fr 1fr; 
@@ -631,6 +635,8 @@ body {
   bottom: 0;
   height: 6rem;
   background-color: #FA4319; 
+
+  -webkit-overflow-scrolling: touch;
 }
 .ticker {
   display: inline-block;
@@ -1209,9 +1215,7 @@ button:focus {
     .about-img{
       margin-top: 50px;
     }
-    .section-heading h2{
-      font-size: 30px;
-    }
+
     .section-heading h4{
       font-size: 15px;
     }
@@ -3011,6 +3015,17 @@ ul.footer-gallery li img {
   opacity: 0; /* Agrega opacidad inicial */
   transform: translateY(100%); /* Mueve el caption hacia abajo */
   transition: opacity 0.5s ease, transform 0.5s ease; /* Agrega transición suave */
+}
+
+@media (max-width: 768px) {
+  .swiper-slide {
+    /* Cambiar el ancho de los elementos para que ocupen el 100% del ancho disponible */
+    height: 60% !important;
+    /* Restablecer el ancho a su valor predeterminado (puede variar según tu diseño) */
+    width: 60% !important;
+    /* Forzar la visualización de diapositivas una debajo de la otra */
+    display: block !important;
+  }
 }
 
 /* Muestra el "slide caption" al hacer hover en escritorio */
