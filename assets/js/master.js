@@ -284,10 +284,11 @@ jQuery(function ($) {
 
       breakpoints: {
         300: {
-          slidesPerView: "auto",
+          slidesPerView: 1, // Número de diapositivas en pantallas de 768px o menos
         },
         768: {
-          slidesPerView: 1, // Número de diapositivas en pantallas de 768px o menos
+          slidesPerView: 'auto', // Número de diapositivas en pantallas de 768px o menos
+          spaceBetween: 30,
         },
         1024: {
           slidesPerView: 3, // Número de diapositivas en pantallas de 1024px o menos
