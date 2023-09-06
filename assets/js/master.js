@@ -266,8 +266,7 @@ jQuery(function ($) {
     /* ===== Swiper ===== */
 
     var swiper = new Swiper(".swiper-container", {
-      slidesPerView: 3,
-      centeredSlides: false,
+     
       spaceBetween: 20,
       grabCursor: true,
       // Elimina la configuración de paginación existente
@@ -284,7 +283,7 @@ jQuery(function ($) {
 
       breakpoints: {
         300: {
-          slidesPerView: "auto",
+          slidesPerView: 1,
         },
         768: {
           slidesPerView: 2,

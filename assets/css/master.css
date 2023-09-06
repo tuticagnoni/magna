@@ -244,8 +244,9 @@ section {
   }
 
   .welcome-text {
-    font-size: 18px;
+    font-size: 22px;
   }
+
 }
 
 .section-heading h2 {
@@ -295,6 +296,13 @@ section {
   letter-spacing: 5px;
 }
 
+@media (max-width: 950px) {
+
+  .quehacemos .quehacemos-text p{
+   padding: 90%;
+  }
+
+}
 
 
 .info-counter{
@@ -459,8 +467,9 @@ margin: 0 0 30px 0;
   
 
 .blue { 
-  grid-area: 2 / 1 / 4 / 2; 
+  grid-area: 1 / 1 / 3 / 2; 
   width: 80%; 
+  align-self: flex-end;
 }
 
 .hero-title { 
@@ -489,83 +498,140 @@ margin: 0 0 30px 0;
 /*hero mediaquerys*/
 
 /* Pantallas pequeñas */
-@media (max-width: 576px) {
+@media (max-width: 576px) { 
   .container1 {
     height: 100vh;
     display: grid; 
-    grid-template-columns: 1fr 1fr; 
-    grid-template-rows: 1fr 1fr; 
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr; 
     gap: 0px 0px; 
   }
-  .hero { grid-area: 1 / 1 / 3 / 3; }
-  .pink { grid-area: 1 / 1 / 3 / 3; }
-  .blue { grid-area: 1 / 1 / 3 / 2; }
-  .orange { grid-area: 2 / 2 / 3 / 3; }
-  .hero-title { grid-area: 2 / 1 / 3 / 3; }
+  .hero { 
+    grid-area: 1 / 1 / 6 / 5; 
+  }
+  .pink { 
+    grid-area: 1 / 1 / 6 / 5;  
+    width: 180%;
+    display: flex;
+    align-items: center;
+    padding-right: 180px;
+  }
 
+  .blue { 
+    grid-area: 1 / 1 / 4 / 3; 
+    margin-bottom: 90%;
+  }
+
+  .orange { 
+    grid-area: 4 / 3 / 6 / 5; 
+    width: auto;
+  }
+
+  .hero-title { grid-area: 2 / 2 / 5 / 4; 
+  }
+ 
   .hero-title h1 {
     font-family: Collingar;
-    font-size: 50px;
+    font-size: 100px;
     color: #eae3da;
   }
 
   .hero-title p {
-    font-size: 15px;
+    font-size: 25px;
     color: #eae3da;
   }
 }
 
 /* Tablets en orientación horizontal y pantallas medianas */
 @media (min-width: 577px) and (max-width: 991px) {
-
-  .container1 {  
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-auto-columns: 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
+  .container1 {
+    height: 100vh;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr; 
+    gap: 0px 0px; 
   }
-  
   .hero { 
-    grid-area: 1 / 1 / 4 / 5; 
-    background:#1E1E1E;}
-  
+    grid-area: 1 / 1 / 6 / 5; 
+  }
   .pink { 
-    grid-area: 1 / 2 / 4 / 5; }
-  
-  .orange { 
-    grid-area: 3 / 4 / 4 / 5; 
-    width: 80%;
-  }
-    
-  .blue { 
-    grid-area: 2 / 1 / 4 / 2; 
-    width: 80%; 
-  }
-  
-  .hero-title { 
-    grid-area: 2 / 2 / 3 / 4; 
+    grid-area: 1 / 1 / 6 / 5;  
+    width: 180%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    gap: 1px;
+    padding-right: 180px;
   }
 
-  .hero-title h1 { 
-    font-size: 100px;
+  .blue { 
+    grid-area: 1 / 1 / 4 / 3; 
+    margin-bottom: 50%;
   }
 
-  .hero-title p { 
-    font-size: 20px;
+  .orange { 
+    grid-area: 4 / 3 / 6 / 5; 
+    width: auto;
+  }
+
+  .hero-title { grid-area: 2 / 2 / 5 / 4; 
+  }
+ 
+  .hero-title h1 {
+    font-family: Collingar;
+    font-size: 150px;
+    color: #eae3da;
+  }
+
+  .hero-title p {
+    font-size: 35px;
+    color: #eae3da;
   }
   
 }
 
 /* Pantallas grandes */
 @media (min-width: 992px) and (max-width: 1199px) {
+  .container1 {
+    height: 100vh;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr; 
+    gap: 0px 0px; 
+  }
+  .hero { 
+    grid-area: 1 / 1 / 6 / 5; 
+  }
+  .pink { 
+    grid-area: 1 / 1 / 6 / 5;  
+    width: 180%;
+    display: flex;
+    align-items: center;
+    padding-right: 180px;
+  }
 
+  .blue { 
+    grid-area: 1 / 1 / 4 / 3; 
+    margin-bottom: 50%;
+  }
+
+  .orange { 
+    grid-area: 4 / 3 / 6 / 5; 
+    width: auto;
+  }
+
+  .hero-title { grid-area: 2 / 2 / 5 / 4; 
+  }
+ 
+  .hero-title h1 {
+    font-family: Collingar;
+    font-size: 150px;
+    color: #eae3da;
+  }
+
+  .hero-title p {
+    font-size: 35px;
+    color: #eae3da;
+  }
+/* 
   .container1 {  
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -600,7 +666,7 @@ margin: 0 0 30px 0;
     justify-content: center;
     align-items: center;
     gap: 1px;
-  }
+  } */
 
 }
 
