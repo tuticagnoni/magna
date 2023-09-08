@@ -798,6 +798,7 @@ body {
 .mb-120 {margin-bottom: 120px;}
 .mr-0 {margin-right: 0px!important;}
 .mr-5 {margin-right: 5px;}
+.mr-7 {margin-right: 7px;}
 .mr-10 {margin-right: 10px;}
 .mr-20 {margin-right: 20px;}
 .mr-30 {margin-right: 30px;}
@@ -1086,6 +1087,8 @@ button:focus {
   top: 50%;
   right: 0;
 }
+
+
 
 .service-style-one .feature-box{
   border-radius: 30px 30px 30px 30px;
