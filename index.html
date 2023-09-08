@@ -13,10 +13,6 @@
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
   <!--pagina de icon: https://icofont.com/-->
-  <!-- Revolution Style Sheets -->
-  <link rel="stylesheet" type="text/css" href="revolution/css/settings.css">
-  <link rel="stylesheet" type="text/css" href="revolution/css/layers.css">
-  <link rel="stylesheet" type="text/css" href="revolution/css/navigation.css">
 
 
 </head>
@@ -174,8 +170,8 @@
                 <div class="swiper-slide wow fadeTop" data-wow-delay="0.4s">
                   <div class="swiper-card">
                     <div class="swiper-card-front">
-                      <a href="agroleon.html">
-                        <img src="assets/images/casos-exito/AGRO.png" alt="21" />
+                      <a href="coseconyami.html">
+                        <img src="assets/images/casos-exito/YAMI.png" alt="21" />
                         <div class="slide-caption">Cobertura de viaje & Redes Sociales
                         </div>
                       </a>
@@ -324,43 +320,48 @@
     <section class="contact-us dark-bg pb-50" id="contact">
       <div class="container">
         <div class="row">
-          <div class="col-md-5">
+          <div class="col-md-6">
             <div class="cta-heading-left wow fadeTop" data-wow-delay="0.3s">
               <h3>Contacto</h3>
+              <ul class="">
+                <li><a href="#" class="icofont icofont-mail"><p>&nbspnadin@somosmagna.com</p></a></li>
+                <li><a href=" #" class="icofont icofont-whatsapp"><p>&nbsp+5493416933728</p></a></li>
+                <li><p>¡Trabajemos juntos!</p></li>
+              </ul>
             </div>
           </div>
-        </div>
-        <br>
-        <br>
-        <div class="col-md-12 wow fadeTop" data-wow-delay="0.3s">
-          <form name="contact-form" id="contact-form" action="php/contact.php" method="POST">
-            <div class="messages"></div>
-            <div class="row">
-              <div class="col-md-6">
-                <div class="form-group">
-                  <label class="sr-only" for="name">Nombre</label>
-                  <input type="text" name="name" class="form-control" id="name" required="required"
-                    placeholder="Tu Nombre" data-error="Por favor, completá con tu nombre">
-                  <div class="help-block with-errors mt-20"></div>
+          <div class="col-md-6 wow fadeTop" data-wow-delay="0.3s">
+            <form name="contact-form" id="contact-form" action="php/contact.php" method="POST">
+              <div class="messages"></div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label class="sr-only" for="name">Nombre</label>
+                    <input type="text" name="name" class="form-control" id="name" required="required"
+                      placeholder="Tu Nombre" data-error="Por favor, completá con tu nombre">
+                    <div class="help-block with-errors mt-20"></div>
+                  </div>
+                </div>
+                
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label class="sr-only" for="email">Tu Email</label>
+                    <input type="email" name="email" class="form-control" id="email" placeholder="Tu Email"
+                      required="required" data-error="Por favor, completá con un email válido">
+                    <div class="help-block with-errors mt-20"></div>
+                  </div>
                 </div>
               </div>
-              <div class="col-md-6">
-                <div class="form-group">
-                  <label class="sr-only" for="email">Tu Email</label>
-                  <input type="email" name="email" class="form-control" id="email" placeholder="Tu Email"
-                    required="required" data-error="Por favor, completá con un email válido">
-                  <div class="help-block with-errors mt-20"></div>
-                </div>
+                  <div class="form-group">
+                    <label class="sr-only" for="message">Mensaje</label>
+                    <textarea name="message" class="form-control" id="message" rows="7" placeholder="Tu Mensaje" required
+                      data-error="Por favor, dejá un mensaje"></textarea>
+                    <div class="help-block with-errors mt-20"></div>
+                  </div>
+                  <button type="submit" name="submit" class="btn btn-color btn-circle pull-right">Enviar</button>
+                </form>
               </div>
-            </div>
-            <div class="form-group">
-              <label class="sr-only" for="message">Mensaje</label>
-              <textarea name="message" class="form-control" id="message" rows="7" placeholder="Tu Mensaje" required
-                data-error="Por favor, dejá un mensaje"></textarea>
-              <div class="help-block with-errors mt-20"></div>
-            </div>
-            <button type="submit" name="submit" class="btn btn-color btn-circle pull-right">Enviar</button>
-          </form>
+
         </div>
       </div>
   </div>
@@ -453,37 +454,19 @@
   </div>
   <!--=== Wrapper End ======-->
 
-  <!--=== Javascript Plugins ======-->
-  <script src="assets/js/jquery.min.js"></script>
-  <script src="assets/js/validator.js"></script>
-  <script src="assets/js/plugins.js"></script>
-  <script src="assets/js/master.js"></script>
-  <script src="assets/js/bootsnav.js"></script>
+    <!--=== Javascript Plugins ======-->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/validator.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/master.js"></script>
+    <!-- <script src="assets/js/swiper.min.js"></script> -->
+    <script src="assets/js/bootsnav.js"></script>
 
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <!--=== Javascript Plugins End ======-->
-
-  <!-- Revolution js Files -->
-  <script src="revolution/js/jquery.themepunch.tools.min.js"></script>
-  <script src="revolution/js/jquery.themepunch.revolution.min.js"></script>
-  <script src="revolution/js/revolution.extension.actions.min.js"></script>
-  <script src="revolution/js/revolution.extension.carousel.min.js"></script>
-  <script src="revolution/js/revolution.extension.kenburn.min.js"></script>
-  <script src="revolution/js/revolution.extension.layeranimation.min.js"></script>
-  <script src="revolution/js/revolution.extension.migration.min.js"></script>
-  <script src="revolution/js/revolution.extension.navigation.min.js"></script>
-  <script src="revolution/js/revolution.extension.parallax.min.js"></script>
-  <script src="revolution/js/revolution.extension.slideanims.min.js"></script>
-  <script src="revolution/js/revolution.extension.video.min.js"></script>
-  <!--== Javascript Plugins End ==-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!--=== Javascript Plugins End ======-->
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-
-
-
   <script>
-
-
     // Hero slider
     const designElements = document.querySelectorAll('.designElements');
     const timeline = gsap.timeline();
@@ -512,7 +495,6 @@
 
 
     // Efecto paralaje sutil con el mouse
-
     const parallaxElement = document.querySelectorAll('.pink');
     document.addEventListener('mousemove', (e) => {
       const x = e.clientX / window.innerWidth - 0.5;
@@ -525,7 +507,6 @@
         ease: 'power1.out',
       });
     });
-
 
     const parallaxElementText = document.querySelectorAll('.text');
     document.addEventListener('mousemove', (e) => {
@@ -566,117 +547,6 @@
       yoyo: true, // Hace que la animación revierta automáticamente después de cada repetición
     });
 
-
-    // var revapi1078,
-    //   tpj = jQuery;
-
-    // tpj(document).ready(function () {
-    /* ===== REVOLUTION SLIDER MAIN DEMO ===== */
-
-  //     if (tpj("#rev_slider_landing_custom").revolution == undefined) {
-  //       revslider_showDoubleJqueryError("#rev_slider_landing_custom");
-  //     } else {
-  //       $("#rev_slider_landing_custom").show().revolution({
-  //         sliderType: "standard",
-  //         jsFileLocation: "revolution/js/",
-  //         sliderLayout: "fullscreen",
-  //         dottedOverlay: "none",
-  //         delay: 5000,
-  //         navigation: {
-  //           keyboardNavigation: "off",
-  //           keyboard_direction: "horizontal",
-  //           mouseScrollNavigation: "off",
-  //           mouseScrollReverse: "default",
-  //           onHoverStop: "off",
-  //           touch: {
-  //             touchenabled: "on",
-  //             swipe_threshold: 75,
-  //             swipe_min_touches: 1,
-  //             swipe_direction: "horizontal",
-  //             drag_block_vertical: false
-  //           }
-  //           ,
-  //           arrows: {
-  //             style: "hades",
-  //             enable: false,
-  //             hide_onmobile: true,
-  //             hide_under: 600,
-  //             hide_onleave: true,
-  //             hide_delay: 200,
-  //             hide_delay_mobile: 1200,
-  //             tmp: '<div class="tp-arr-allwrapper">
-    // < div class="tp-arr-imgholder">
-      // </div>
-  // </div> ',
-  // left: {
-  // h_align: "left",
-  // v_align: "center",
-  // h_offset: 30,
-  // v_offset: 0
-  // },
-  // right: {
-  // h_align: "right",
-  // v_align: "center",
-  // h_offset: 30,
-  // v_offset: 0
-  // }
-  // }
-  // ,
-  // bullets: {
-  // enable: false,
-  // hide_onmobile: false,
-  // hide_under: 600,
-  // style: "uranus",
-  // hide_onleave: true,
-  // hide_delay: 200,
-  // hide_delay_mobile: 1200,
-  // direction: "horizontal",
-  // h_align: "center",
-  // v_align: "bottom",
-  // h_offset: 0,
-  // v_offset: 30,
-  // space: 20,
-  // tmp: '<span class="tp-bullet-inner"></span>'
-  // }
-  // },
-  // viewPort: {
-  // enable: false,
-  // outof: "pause",
-  // visible_area: "90%",
-  // presize: false
-  // },
-  // responsiveLevels: [1240, 1024, 778, 480],
-  // visibilityLevels: [1240, 1024, 778, 480],
-  // gridwidth: [1240, 1024, 778, 480],
-  // gridheight: [525, 600, 500, 400],
-  // lazyType: "none",
-  // parallax: {
-  // type: "mouse",
-  // origo: "slidercenter",
-  // speed: 2000,
-  // levels: [2, 3, 4, 5, 6, 7, 12, 16, 10, 50, 47, 48, 49, 50, 51, 55],
-  // },
-  // shadow: 0,
-  // spinner: "off",
-  // stopLoop: "off",
-  // stopAfterLoops: -1,
-  // stopAtSlide: -1,
-  // shuffle: "off",
-  // autoHeight: "off",
-  // hideThumbsOnMobile: "off",
-  // hideSliderAtLimit: 0,
-  // hideCaptionAtLimit: 0,
-  // hideAllCaptionAtLilmit: 0,
-  // debugMode: false,
-  // fallbacks: {
-  // simplifyAll: "off",
-  // nextSlideOnWindowFocus: "off",
-  // disableFocusListener: false,
-  // }
-  // });
-  // }
-
-  // });
   </script>
 
 </body>

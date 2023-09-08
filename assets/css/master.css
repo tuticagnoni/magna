@@ -94,11 +94,11 @@ body {
     background: #1e1e1e;
     font-size:15px;
     font-family: 'Prompt', sans-serif;
-    cursor: url('../images/cursor.png'), auto;
+    /* cursor: url('../images/cursor.png'), auto; */
 }
 
 /* Estilo del cursor personalizado para el cuerpo o contenedor principal */
-.custom-cursor {
+/* .custom-cursor {
   cursor: url('../images/cursor.png'), auto;
 }
 .custom-cursor a{
@@ -110,7 +110,12 @@ body {
 #back-to-top {
   cursor: url('../images/cursor.png'), auto;
 }
-
+#footer-fixed {
+  cursor: url('../images/cursor.png'), auto;
+}
+.icofont {
+  cursor: url('../images/cursor.png'), auto;
+} */
 
 
 .wrapper {
@@ -1247,11 +1252,11 @@ button:focus {
   .about-img{
     margin-top: 50px;
   }
-  .scoda-swiper.pagination-style-01 .swiper-pagination {
+  /* .scoda-swiper.pagination-style-01 .swiper-pagination {
     right: 0!important;
     top: auto!important;
     bottom: 58px!important;
-  }
+  } */
 }
 @media (max-width: 767px) {
     ul#portfolio-grid.five-column>li,
@@ -1293,7 +1298,7 @@ button:focus {
     .work-item-wrap .work-item-info p{
       font-size: 12px!important;
     }
-    .scoda-swiper.pagination-style-01 .swiper-pagination{
+    /* .scoda-swiper.pagination-style-01 .swiper-pagination{
       right: 0!important;
       top: auto!important;
       bottom: 10px!important;
@@ -1301,7 +1306,7 @@ button:focus {
     .scoda-swiper.pagination-style-01 .swiper-pagination-bullet{
       width: 25px!important;
       height: 25px!important;
-    }
+    } */
     .testimonial-carousel .testimonial-item .name{
       font-size: 18px!important;
     }
@@ -2068,6 +2073,47 @@ ul.footer-gallery li img {
 
 .contact-us h3 {
 	margin-top:0;
+}
+
+.cta-heading-left ul li a,
+.cta-heading-left ul li p {
+  font-family: 'Prompt', sans-serif;
+  font-size: 18px;
+  color: #eae3da;
+}
+
+.cta-heading-left ul li a:hover {
+  color: #FA4319; /* Naranja */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Estilo para los íconos y texto */
+.cta-heading-left ul {
+  list-style-type: none; /* Esto quitará los puntos de la lista */
+  padding: 0; /* Esto quita el espacio interno de la lista */
+}
+
+.cta-heading-left ul li a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+/* Cambiar color en hover */
+.cta-heading-left ul li a:hover {
+  color: #FA4319; /* Naranja */
+}
+
+/* Estilo para el texto "¡Trabajemos juntos!" */
+.cta-heading-left ul li:last-child p {
+  font-weight: 500;
+}
+
+/* Asegurarse de que los íconos tengan la misma altura que el texto */
+.cta-heading-left ul li a {
+  vertical-align: middle;
+  margin-right: 5px; /* Espacio entre el ícono y el texto */
 }
 
 .search-submit{

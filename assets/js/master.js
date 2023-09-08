@@ -266,7 +266,7 @@ jQuery(function ($) {
     /* ===== Swiper ===== */
 
     var swiper = new Swiper(".swiper-container", {
-     
+      slidesPerView: 3,
       spaceBetween: 20,
       grabCursor: true,
       // Elimina la configuración de paginación existente
@@ -283,14 +283,18 @@ jQuery(function ($) {
 
       breakpoints: {
         300: {
-          slidesPerView: 1,
+          slidesPerView: 1, // Número de diapositivas en pantallas de 768px o menos
+          on: {
+            init: function () {
+              console.log("Width: " + window.innerWidth);
+            }
+          }
         },
         768: {
-          slidesPerView: 2,
+          slidesPerView: 1, // Número de diapositivas en pantallas de 768px o menos
         },
         1024: {
-          slidesPerView: 3,
-          spaceBetween: 30,
+          slidesPerView: 3, // Número de diapositivas en pantallas de 1024px o menos
         },
       },
     });
