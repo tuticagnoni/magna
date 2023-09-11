@@ -3147,9 +3147,9 @@ ul.footer-gallery li img {
 @media (max-width: 768px) {
   .swiper-slide {
     /* Cambiar el ancho de los elementos para que ocupen el 100% del ancho disponible */
-    height: 60% !important;
+    /* height: 60% !important; */
     /* Restablecer el ancho a su valor predeterminado (puede variar según tu diseño) */
-    width: 60% !important;
+    /* width: 60% !important; */
     /* Forzar la visualización de diapositivas una debajo de la otra */
     display: block !important;
   }

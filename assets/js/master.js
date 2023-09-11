@@ -283,16 +283,14 @@ jQuery(function ($) {
       },
 
       breakpoints: {
-        300: {
+        320: {
           slidesPerView: 1, // Número de diapositivas en pantallas de 768px o menos
-          on: {
-            init: function () {
-              console.log("Width: " + window.innerWidth);
-            }
-          }
+        },
+        588: {
+          slidesPerView: 2, // Número de diapositivas en pantallas de 768px o menos
         },
         768: {
-          slidesPerView: 1, // Número de diapositivas en pantallas de 768px o menos
+          slidesPerView: 2, // Número de diapositivas en pantallas de 768px o menos          
         },
         1024: {
           slidesPerView: 3, // Número de diapositivas en pantallas de 1024px o menos
