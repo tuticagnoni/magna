@@ -66,7 +66,7 @@
 
 @font-face {
   font-family: Collingar;
-  src: url("../fonts/collingar-collingar-400.otf") format("opentype");
+  src: url("../fonts/collingar-collingar-400.woff") format('woff');
 }
 
 
@@ -488,7 +488,7 @@ margin: 0 0 30px 0;
 }
 
   .hero-title h1 {
-    font-family: Collingar;
+    font-family: 'Collingar', sans-serif;
     font-size: 150px;
     color: #eae3da;
 
@@ -536,7 +536,7 @@ margin: 0 0 30px 0;
   }
  
   .hero-title h1 {
-    font-family: Collingar;
+    font-family: 'Collingar', sans-serif;
     font-size: 100px;
     color: #eae3da;
   }
@@ -581,7 +581,7 @@ margin: 0 0 30px 0;
   }
  
   .hero-title h1 {
-    font-family: Collingar;
+    font-family: 'Collingar', sans-serif;
     font-size: 150px;
     color: #eae3da;
   }
@@ -627,7 +627,7 @@ margin: 0 0 30px 0;
   }
  
   .hero-title h1 {
-    font-family: Collingar;
+    font-family: 'Collingar', sans-serif;
     font-size: 150px;
     color: #eae3da;
   }
@@ -726,7 +726,7 @@ body {
   padding: 0 1rem;
   font-size: 2rem;
   color: white;   
-  font-family: Collingar;  /* font-weight: 200;
+  font-family: 'Collingar', sans-serif;  /* font-weight: 200;
   font-family: sans-serif; */
 }
 
@@ -3061,7 +3061,7 @@ ul.footer-gallery li img {
   text-align: left; 
   font-size: 5rem; 
   color: #EAE3DA; 
-  font-family: Collingar;
+  font-family: 'Collingar', sans-serif;
   font-weight: 700;
   line-height: 1.4;}
 
