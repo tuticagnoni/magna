@@ -186,6 +186,7 @@ jQuery(function ($) {
       responsiveRefreshRate: 0,
       pagination: false,
       loop: true,
+      infinite: true,
       autoPlay: 3000,
       stopOnHover: true,
       itemsScaleUp: true,

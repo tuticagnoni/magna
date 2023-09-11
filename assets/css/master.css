@@ -66,7 +66,9 @@
 
 @font-face {
   font-family: Collingar;
+  src: url("../fonts/collingar-collingar-400.woff2") format('woff2');
   src: url("../fonts/collingar-collingar-400.woff") format('woff');
+  font-display: swap;
 }
 
 
@@ -2089,6 +2091,15 @@ ul.footer-gallery li img {
   color: #FA4319; /* Naranja */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.cta-heading-left ul li a p {
+  margin-left: 15px;
+}
+
+.cta-heading-left ul li a p:hover{
+  text-decoration: underline #FA4319;
+  transition: width 0.3s ease; /* Ajusta la duración y la función de tiempo según lo desees */
 }
 
 /* Estilo para los íconos y texto */
