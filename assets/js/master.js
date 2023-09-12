@@ -180,8 +180,8 @@ jQuery(function ($) {
     $("#client-slider").owlCarousel({
       items: 5,
       itemsDesktop: [1199, 5],
-      itemsDesktopSmall: [980, 5],
-      itemsTablet: [768, 4],
+      itemsDesktopSmall: [980, 3],
+      itemsTablet: [768, 3],
       itemsMobile: [479, 1],
       responsiveRefreshRate: 0,
       pagination: false,
@@ -290,12 +290,18 @@ jQuery(function ($) {
           slidesPerView: 2, // Número de diapositivas en pantallas de 768px o menos
         },
         768: {
-          slidesPerView: 2, // Número de diapositivas en pantallas de 768px o menos          
+          slidesPerView: 2, // Número de diapositivas en pantallas de 768px o menos
         },
         1024: {
           slidesPerView: 3, // Número de diapositivas en pantallas de 1024px o menos
         },
       },
+
+      autoplay: {
+        delay: 4000, // Tiempo en milisegundos entre cada slide
+        disableOnInteraction: false, // Para que el autoplay no se detenga al interactuar con el slider
+      },
+      speed: 1000,
     });
     /* ===== Go to Top ===== */
 

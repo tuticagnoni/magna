@@ -101,10 +101,10 @@ body {
 
 /* Estilo del cursor personalizado para el cuerpo o contenedor principal */
 .custom-cursor {
-  cursor: url('../images/cursor.png'), auto;
+  cursor: url('../images/cursor2.png'), auto;
 }
 .custom-cursor a{
-  cursor: url('../images/cursor.png'), auto;
+  cursor: url('../images/cursor2.png'), auto;
 }
 .swiper-button-prev , .swiper-button-next {
   cursor: url('../images/cursor.png'), auto;
@@ -892,7 +892,7 @@ body {
 }
 
 .btn-rounded {
-	border-radius:4px;
+	border-radius:25px;
 }
 
 .btn-square {
@@ -1882,8 +1882,8 @@ a.readmore > span {
 .footer-copyright{
    padding: 30px 0;
    background-color: #1e1e1e;
-   border-top: solid 1px #bbb}
-
+   /* border-top: solid 1px #bbb*/
+  } 
 .copy-right{margin-top:5px;color:text-right;}
 
 .footer-copyright ul.social-media{
@@ -2798,9 +2798,9 @@ ul.footer-gallery li img {
 }
 
 @media (max-width: 479px) {
-  .client-logo {
+  /* .client-logo {
     transform: scale(1.3);
-}
+} */
 }
 
 
