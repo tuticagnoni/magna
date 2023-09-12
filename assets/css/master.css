@@ -103,7 +103,7 @@ body {
 .custom-cursor {
   cursor: url('../images/cursor.png'), auto;
 }
-/* .custom-cursor a{
+.custom-cursor a{
   cursor: url('../images/cursor.png'), auto;
 }
 .swiper-button-prev , .swiper-button-next {
@@ -117,7 +117,7 @@ body {
 }
 .icofont {
   cursor: url('../images/cursor.png'), auto;
-} */
+}
 
 
 .wrapper {
