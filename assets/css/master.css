@@ -100,10 +100,10 @@ body {
 }
 
 /* Estilo del cursor personalizado para el cuerpo o contenedor principal */
-/* .custom-cursor {
+.custom-cursor {
   cursor: url('../images/cursor.png'), auto;
 }
-.custom-cursor a{
+/* .custom-cursor a{
   cursor: url('../images/cursor.png'), auto;
 }
 .swiper-button-prev , .swiper-button-next {
