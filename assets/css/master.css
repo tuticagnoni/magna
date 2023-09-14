@@ -107,16 +107,16 @@ body {
   cursor: url('../images/cursor2.png'), auto;
 }
 .swiper-button-prev , .swiper-button-next {
-  cursor: url('../images/cursor.png'), auto;
+  cursor: url('../images/cursor2.png'), auto;
 }
 #back-to-top {
-  cursor: url('../images/cursor.png'), auto;
+  cursor: url('../images/cursor2.png'), auto;
 }
 #footer-fixed {
-  cursor: url('../images/cursor.png'), auto;
+  cursor: url('../images/cursor2.png'), auto;
 }
 .icofont {
-  cursor: url('../images/cursor.png'), auto;
+  cursor: url('../images/cursor2.png'), auto;
 }
 
 
@@ -2097,10 +2097,10 @@ ul.footer-gallery li img {
   margin-left: 15px;
 }
 
-.cta-heading-left ul li a p:hover{
+/* .cta-heading-left ul li a p:hover{
   text-decoration: underline #FA4319;
-  transition: width 0.3s ease; /* Ajusta la duración y la función de tiempo según lo desees */
-}
+  transition: width 0.3s ease; /* Ajusta la duración y la función de tiempo según lo desees 
+} */
 
 /* Estilo para los íconos y texto */
 .cta-heading-left ul {
