@@ -264,9 +264,9 @@ jQuery(function ($) {
       ],
     });
 
-    /* ===== Swiper ===== */
+    /* ===== Swiper casos de exito===== */
 
-    var swiper = new Swiper(".swiper-container", {
+    var swiper = new Swiper(".my-slider-1", {
       slidesPerView: 3,
       spaceBetween: 20,
       grabCursor: true,
@@ -303,6 +303,40 @@ jQuery(function ($) {
       },
       speed: 1000,
     });
+
+        /* ===== Swiper clientes===== */
+
+        var mySwiper = new Swiper('.my-slider-2', {
+          slidesPerView: '5',
+          spaceBetween: 40,
+          loop: true,
+          pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+          },
+
+          breakpoints: {
+            320: {
+              slidesPerView: 1, // Número de diapositivas en pantallas de 768px o menos
+            },
+            588: {
+              slidesPerView: 2, // Número de diapositivas en pantallas de 768px o menos
+            },
+            768: {
+              slidesPerView: 3, // Número de diapositivas en pantallas de 768px o menos
+            },
+            1024: {
+              slidesPerView: 5, // Número de diapositivas en pantallas de 1024px o menos
+            },
+          },
+    
+          autoplay: {
+            delay: 4000, // Tiempo en milisegundos entre cada slide
+            disableOnInteraction: false, // Para que el autoplay no se detenga al interactuar con el slider
+          },
+          speed: 1000,
+
+        });
     /* ===== Go to Top ===== */
 
     if ($("#back-to-top").length) {
