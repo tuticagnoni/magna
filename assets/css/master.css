@@ -1,53 +1,3 @@
-/*
-====================================
-[ CSS TABLE CONTENT ]
-------------------------------------
-    1.0 - General
-    2.0 - Typography
-    3.0 - Global Style
-    4.0 - Navigation
-    5.0 - Search Box
-    6.0 - Page Title Section
-    7.0 - Slider Section
-    8.0 - Creative Section
-    9.0 - Recent Project Section
-    9.1 - Overlay and hover effect
-    10.0 - Magnific Popup CSS
-    11.0 - Feature Section
-    12.0 - About Section
-    13.0 - Counter Section
-    14.0 - Team Section
-    15.0 - Video Section
-    16.0 - Service Section
-    17.0 - Process Section
-    18.0 - Portfolio Section
-    19.0 - Portfolio Single Page
-    20.0 - Partner Section
-    21.0 - Case study section
-    22.0 - Map Section
-    23.0 - Contact Section
-    24.0 - Footer Section
-    25.0 - Preloader
-    26.0 - Homepage Two
-    27.0 - Homepage Three
-    28.0 - About us Page
-    29.0 - About us page two
-    30.0 - Blog Page
-    31.0 - Blog Page Version Two
-    32.0 - Full Width Section
-    33.0 - Call to action section
-    34.0 - Client Testimonial Style
-    35.0 - Parallax Homepage
-    36.0 - Contact Page
-    37.0 - 404 page
-    38.0 - Flex slider customization
-	39.0 - Owl slider customization
-	40.0 - Slick slider customization
--------------------------------------
-[ END CSS TABLE CONTENT ]
-=====================================
-*/
-
 /* =============================================
             	Theme Reset Style
 ============================================= */
@@ -213,7 +163,7 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
 }
 
 
-section {
+section, .section {
 	padding-top:120px;
 	/* padding-bottom:120px; */
 	position: relative;
@@ -3142,6 +3092,10 @@ ul.footer-gallery li img {
   opacity: 0; /* Agrega opacidad inicial */
   transform: translateY(100%); /* Mueve el caption hacia abajo */
   transition: opacity 0.5s ease, transform 0.5s ease; /* Agrega transición suave */
+}
+
+.workbuttons a {
+    color: #eae3da !important;
 }
 
 @media (max-width: 768px) {
