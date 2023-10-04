@@ -409,11 +409,11 @@ margin: 0 0 30px 0;
 }
 .hero { 
   grid-area: 1 / 1 / 4 / 5; 
-  background:#1E1E1E;}
-
+  background:#1E1E1E;
+}
 .pink { 
-  grid-area: 1 / 2 / 4 / 5; }
-
+  grid-area: 1 / 2 / 4 / 5; 
+}
 .orange { 
   grid-area: 3 / 4 / 4 / 5; 
   width: 80%;
@@ -425,7 +425,6 @@ margin: 0 0 30px 0;
   width: 80%; 
   align-self: flex-end;
 }
-
 .hero-title { 
   grid-area: 2 / 2 / 3 / 4; 
   display: flex;
@@ -440,17 +439,97 @@ margin: 0 0 30px 0;
   font-family: 'Collingar', sans-serif;
   font-size: 150px;
   color: #eae3da;
-
 }
-
 .hero-title p {
   font-size: 30px;
   color: #eae3da;
 }
 
 /*---===work===---*/
-
 .container2 {
+  height: 50vh;
+  display: grid; 
+  grid-auto-columns: 1fr; 
+  grid-template-columns: 1fr 1fr 0.9fr 1.1fr; 
+  grid-template-rows: 1fr 1fr 1fr 1fr; 
+  gap: 0px 0px; 
+}
+.work { grid-area: 1 / 1 / 5 / 5; 
+}
+.pink2 { grid-area: 1 / 1 / 5 / 5; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1px;
+  z-index: 3;
+}
+.blue2 { grid-area: 2 / 1 / 5 / 2; 
+  width: 60%; 
+  align-self: flex-end;
+}
+.orange2 { grid-area: 3 / 4 / 5 / 5; 
+  width: 40%; 
+  align-self: flex-start;
+}
+.hero-title2 { grid-area: 2 / 2 / 4 / 4; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  gap: 1px;
+  z-index: 4;
+  margin-top: 3rem;
+}
+
+
+/* .container2 {
+  height: 50vh;
+  display: grid; 
+  grid-auto-columns: 1fr; 
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+  grid-template-rows: 1fr 1fr; 
+  gap: 0px 0px; 
+}
+.work { 
+  grid-area: 1 / 1 / 3 / 5; 
+}
+.pink2 { 
+  grid-area: 1 / 1 / 3 / 5; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1px;
+  z-index: 3;
+}
+.blue2 { 
+  grid-area: 1 / 1 / 3 / 3; 
+  width: 30%; 
+  align-self: flex-end;
+}
+.orange2 { 
+  grid-area: 2 / 3 / 3 / 5;
+  display: flex;
+  justify-content: flex-end;
+}
+.hero-title2 { grid-area: 1 / 1 / 2 / 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  gap: 1px;
+  z-index: 4;
+  margin-top: 3rem;
+} */
+
+.hero-title2 h1 {
+  font-family: 'Collingar', sans-serif;
+  font-size: 100px;
+  color: #eae3da;
+}
+
+/* .container2 {
   height: 80vh;
   display: grid; 
   grid-template-columns: 1fr 1fr 1fr 1fr; 
@@ -470,7 +549,7 @@ margin: 0 0 30px 0;
   width: 50%;
   display: flex;
   justify-content: flex-end;
-}
+} */
 
 /*hero mediaquerys*/
 
