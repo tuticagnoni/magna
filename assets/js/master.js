@@ -304,39 +304,38 @@ jQuery(function ($) {
       speed: 1000,
     });
 
-        /* ===== Swiper clientes===== */
+    /* ===== Swiper clientes===== */
 
-        var mySwiper = new Swiper('.my-slider-2', {
-          slidesPerView: '5',
-          spaceBetween: 40,
-          loop: true,
-          pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-          },
+    var mySwiper = new Swiper(".my-slider-2", {
+      slidesPerView: "5",
+      spaceBetween: 40,
+      loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
 
-          breakpoints: {
-            320: {
-              slidesPerView: 1, // Número de diapositivas en pantallas de 768px o menos
-            },
-            588: {
-              slidesPerView: 2, // Número de diapositivas en pantallas de 768px o menos
-            },
-            768: {
-              slidesPerView: 3, // Número de diapositivas en pantallas de 768px o menos
-            },
-            1024: {
-              slidesPerView: 5, // Número de diapositivas en pantallas de 1024px o menos
-            },
-          },
-    
-          autoplay: {
-            delay: 4000, // Tiempo en milisegundos entre cada slide
-            disableOnInteraction: false, // Para que el autoplay no se detenga al interactuar con el slider
-          },
-          speed: 1000,
+      breakpoints: {
+        320: {
+          slidesPerView: 1, // Número de diapositivas en pantallas de 768px o menos
+        },
+        588: {
+          slidesPerView: 2, // Número de diapositivas en pantallas de 768px o menos
+        },
+        768: {
+          slidesPerView: 3, // Número de diapositivas en pantallas de 768px o menos
+        },
+        1024: {
+          slidesPerView: 5, // Número de diapositivas en pantallas de 1024px o menos
+        },
+      },
 
-        });
+      autoplay: {
+        delay: 4000, // Tiempo en milisegundos entre cada slide
+        disableOnInteraction: false, // Para que el autoplay no se detenga al interactuar con el slider
+      },
+      speed: 1000,
+    });
     /* ===== Go to Top ===== */
 
     if ($("#back-to-top").length) {
@@ -611,8 +610,7 @@ jQuery(function ($) {
   /* ===== GOOGLE MAPS  ===== */
   if ($("#myMap").length > 0) {
     //set your google maps parameters
-    var $latitude = 40.716304, //If you unable to find latitude and longitude of your address. Please visit http://www.latlong.net/convert-address-to-lat-long.html you can easily generate.
-      $longitude = -73.995763,
+    var $latitude = 40.716304,
       $map_zoom = 16; /* ZOOM SETTING */
 
     //google map custom marker icon
@@ -827,7 +825,7 @@ jQuery(function ($) {
 
   if ($("#myMapTwo").length > 0) {
     //set your google maps parameters
-    var $latitude = 40.716304, //If you unable to find latitude and longitude of your address. Please visit http://www.latlong.net/convert-address-to-lat-long.html you can easily generate.
+    var $latitude = 40.716304,
       $longitude = -73.995763,
       $map_zoom = 16; /* ZOOM SETTING */
 
