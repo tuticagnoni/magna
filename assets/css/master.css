@@ -446,7 +446,7 @@ margin: 0 0 30px 0;
 
 /*---===work===---*/
 .container2 {
-  height: 50vh;
+  height: 80vh;
   display: grid; 
   grid-auto-columns: 1fr; 
   grid-template-columns: 1fr 1fr 0.9fr 1.1fr; 
@@ -465,11 +465,11 @@ margin: 0 0 30px 0;
 }
 .blue2 { grid-area: 2 / 1 / 5 / 2; 
   width: 60%; 
-  align-self: flex-end;
+  align-self: flex-start;
 }
 .orange2 { grid-area: 3 / 4 / 5 / 5; 
-  width: 40%; 
-  align-self: flex-start;
+  width: 60%; 
+  align-self: flex-end;
 }
 .hero-title2 { grid-area: 2 / 2 / 4 / 4; 
   display: flex;
