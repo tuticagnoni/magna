@@ -112,7 +112,7 @@
     <!--=== Portfolio End ======-->
 
     <!--=== Ticker Start ======-->
-    <div class="section">
+    <!-- <div class="section">
       <div class="ticker-wrap" style="margin-top: 40px">
         <div class="ticker">
           <span class="item-collection-1">
@@ -145,7 +145,7 @@
           </span>
         </div>
       </div>
-    </div>
+    </div> -->
     <!--=== Ticker End ======-->
 
     <!--=== Casos de exito ======-->
@@ -220,9 +220,10 @@
 
       </div>
     </section>
+    <!--=== Cards Work End ======-->
 
-    <!--=== Call To Action Naranja Start ======-->
-    <section class="pt-50 pb-50 mt-50 default-bg" id="naranja">
+     <!--=== Call To Action Naranja Start ======-->
+     <section class="pt-50 pb-50 mt-50 default-bg" id="naranja">
       <div class="container">
         <div class="row">
           <div class="col-md-5">
@@ -246,6 +247,65 @@
       </div>
     </section>
     <!--=== Call To Action Naranja End ======-->
+
+
+      <!--=== Formulario de Contacto Start ======-->
+      <section class="contact-us dark-bg pb-50" id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="cta-heading-left wow fadeTop" data-wow-delay="0.3s">
+                <h3>Contacto</h3>
+                <ul class="">
+                  <li><a href="mailto:nadin@somosmagna.com" target="_blank" class="icofont icofont-mail underline">
+                      <p>nadin@somosmagna.com</p>
+                    </a></li>
+                  <li><a href="https://walink.co/1ba493" target="_blank" class="icofont icofont-whatsapp underline">
+                      <p>+5493416933728</p>
+                    </a></li>
+                  <li>
+                    <p>¡Trabajemos juntos!</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-6 wow fadeTop" data-wow-delay="0.3s">
+              <form name="contact-form" id="contact-form" action="../php/contact.php" method="POST">
+                <div class="messages"></div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label class="sr-only" for="name">Nombre</label>
+                      <input type="text" name="name" class="form-control" id="name" required="required"
+                        placeholder="Tu Nombre" data-error="Por favor, completá con tu nombre">
+                      <div class="help-block with-errors mt-20"></div>
+                    </div>
+                  </div>
+  
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label class="sr-only" for="email">Tu Email</label>
+                      <input type="email" name="email" class="form-control" id="email" placeholder="Tu Email"
+                        required="required" data-error="Por favor, completá con un email válido">
+                      <div class="help-block with-errors mt-20"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="sr-only" for="message">Mensaje</label>
+                  <textarea name="message" class="form-control" id="message" rows="7" placeholder="Tu Mensaje" required
+                    data-error="Por favor, dejá un mensaje"></textarea>
+                  <div class="help-block with-errors mt-20"></div>
+                </div>
+                <button type="submit" name="submit" class="btn btn-color btn-circle pull-right">Enviar</button>
+              </form>
+            </div>
+  
+          </div>
+        </div>
+    </div>
+    </section>
+    <!--=== Formulario de Contacto End ======-->
 
     <!--=== Footer Start ======-->
     <footer class="footer" id="footer-fixed">
