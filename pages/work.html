@@ -90,8 +90,8 @@
     <div class="container2 designElements">
       <div class="work"></div>
       <div class="pink2"><img src="../assets/images/memphis-2.png" class="memphis1" alt="garabato rosa"></div>
-      <div class="blue2"><img src="../assets/images/memphis-1.png" class="memphis0" alt="garabato azul"></div>
       <div class="orange2"><img src="../assets/images/memphis-3.png" class="memphis2" alt="garabato naranja"></div>
+      <div class="blue2"><img src="../assets/images/memphis-1.png" class="memphis0" alt="garabato azul"></div>
       <div class="hero-title2">
         <h1>Work</h1>
       </div>
@@ -99,81 +99,83 @@
     <!--== Hero Slider End ==-->
 
     <!--=== Casos de exito ======-->
-    <section class="container">
-      <div class="row">
+    <section class="pb-50">
+      <div class="container">
+        <div class="row">
 
-        <div class="col-sm-4">
-          <div class="card">
-            <div class="card-front">
-              <a href="../pages/monicajuncos.html">
-                <img src="../assets/images/casos-exito/MJ.png" alt="portada monica juncos" />
-                <div class="caption">Branding & Redes Sociales & Diseño Web </div>
-              </a>
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-front">
+                <a href="../pages/monicajuncos.html">
+                  <img src="../assets/images/casos-exito/MJ.png" alt="portada monica juncos" />
+                  <div class="caption">Branding & Redes Sociales & Diseño Web </div>
+                </a>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="col-sm-4">
-          <div class="card">
-            <div class="card-front">
-              <a href="../pages/agroleon.html">
-                <img src="../assets/images/casos-exito/AGRO.png" class="card-img-top" alt="...">
-                <div class="caption">Branding & Redes Sociales & Papelería</div>
-              </a>
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-front">
+                <a href="../pages/agroleon.html">
+                  <img src="../assets/images/casos-exito/AGRO.png" class="card-img-top" alt="...">
+                  <div class="caption">Branding & Redes Sociales & Papelería</div>
+                </a>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="col-sm-4">
-          <div class="card">
-            <div class="card-front">
-              <a href="../pages/enjoy.html">
-                <img src="../assets/images/casos-exito/ENJOY.jpg" class="card-img-top" alt="...">
-                <div class="caption">Cobertura de viaje & Redes Sociales</div>
-              </a>
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-front">
+                <a href="../pages/enjoy.html">
+                  <img src="../assets/images/casos-exito/ENJOY.jpg" class="card-img-top" alt="...">
+                  <div class="caption">Cobertura de viaje & Redes Sociales</div>
+                </a>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="col-sm-4">
-          <div class="card">
-            <div class="card-front">
-              <a href="../pages/coseconyami.html">
-                <img src="../assets/images/casos-exito/YAMI.jpg" class="card-img-top" alt="...">
-                <div class="caption">Branding & Redes Sociales & Marketing Digital</div>
-              </a>
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-front">
+                <a href="../pages/coseconyami.html">
+                  <img src="../assets/images/casos-exito/YAMI.jpg" class="card-img-top" alt="...">
+                  <div class="caption">Branding & Redes Sociales & Marketing Digital</div>
+                </a>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="col-sm-4">
-          <div class="card">
-            <div class="card-front">
-              <a href="../pages/fullelec.html">
-                <img src="../assets/images/casos-exito/FULLELEC.jpg" class="card-img-top" alt="...">
-                <div class="caption">Branding & Papelería & Marketing Digital</div>
-              </a>
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-front">
+                <a href="../pages/fullelec.html">
+                  <img src="../assets/images/casos-exito/FULLELEC.jpg" class="card-img-top" alt="...">
+                  <div class="caption">Branding & Papelería & Marketing Digital</div>
+                </a>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="col-sm-4">
-          <div class="card">
-            <div class="card-front">
-              <a href="../pages/piedras.html">
-                <img src="../assets/images/casos-exito/PIEDRAS.jpg" class="card-img-top" alt="...">
-                <div class="caption">Social Media & Marketing Digital & Email marketing</div>
-              </a>
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-front">
+                <a href="../pages/piedras.html">
+                  <img src="../assets/images/casos-exito/PIEDRAS.jpg" class="card-img-top" alt="...">
+                  <div class="caption">Social Media & Marketing Digital & Email marketing</div>
+                </a>
+              </div>
             </div>
           </div>
-        </div>
 
+        </div>
       </div>
     </section>
     <!--=== Cards Work End ======-->
 
     <!--=== Call To Action Naranja Start ======-->
-    <section class="pt-50 pb-50 mt-50 default-bg" id="naranja">
+    <section class="pt-50 pb-50 default-bg" id="naranja">
       <div class="container">
         <div class="row">
           <div class="col-md-5">
@@ -377,15 +379,15 @@
       yoyo: true, // Hace que la animación revierta automáticamente después de cada repetición
     });
 
-    const movingElement2 = document.querySelector('.orange2');
-
-    // Crea una animación continua con el método to() y yoyo:true
-    gsap.to(movingElement2, {
-      x: 20, // Ajusta la cantidad de movimiento según tus preferencias
-      duration: 4, // Ajusta la duración de cada ciclo
-      ease: 'slowmo', // Utiliza una animación lineal continua
-      repeat: -1, // Repite infinitamente
-      yoyo: true, // Hace que la animación revierta automáticamente después de cada repetición
+    // Selecciona el elemento al que deseas aplicar el movimiento
+    const rotatingElement = document.querySelector('.orange2');
+    // Crea una animación continua con el método to()
+    gsap.to(rotatingElement, {
+      rotation: 360, // Especifica el ángulo de giro (360 grados para una vuelta completa)
+      duration: 25,   // Ajusta la duración de cada vuelta
+      ease: 'linear', // Utiliza una animación lineal continua
+      repeat: -1,    // Repite infinitamente
+      yoyo: true,
     });
     /*--=== Hero Slider Ends  ======--*/
 

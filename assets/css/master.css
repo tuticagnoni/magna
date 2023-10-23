@@ -452,6 +452,7 @@ margin: 0 0 30px 0;
   grid-template-columns: 1fr 1fr 0.9fr 1.1fr; 
   grid-template-rows: 1fr 1fr 1fr 1fr; 
   gap: 0px 0px; 
+  overflow: hidden;
 }
 .work { grid-area: 1 / 1 / 5 / 5; 
 }
@@ -481,77 +482,13 @@ margin: 0 0 30px 0;
   margin-top: 3rem;
 }
 
-
-/* .container2 {
-  height: 50vh;
-  display: grid; 
-  grid-auto-columns: 1fr; 
-  grid-template-columns: 1fr 1fr 1fr 1fr; 
-  grid-template-rows: 1fr 1fr; 
-  gap: 0px 0px; 
-}
-.work { 
-  grid-area: 1 / 1 / 3 / 5; 
-}
-.pink2 { 
-  grid-area: 1 / 1 / 3 / 5; 
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 1px;
-  z-index: 3;
-}
-.blue2 { 
-  grid-area: 1 / 1 / 3 / 3; 
-  width: 30%; 
-  align-self: flex-end;
-}
-.orange2 { 
-  grid-area: 2 / 3 / 3 / 5;
-  display: flex;
-  justify-content: flex-end;
-}
-.hero-title2 { grid-area: 1 / 1 / 2 / 5;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; 
-  gap: 1px;
-  z-index: 4;
-  margin-top: 3rem;
-} */
-
 .hero-title2 h1 {
   font-family: 'Collingar', sans-serif;
   font-size: 100px;
   color: #eae3da;
 }
 
-/* .container2 {
-  height: 80vh;
-  display: grid; 
-  grid-template-columns: 1fr 1fr 1fr 1fr; 
-  grid-template-rows: 1fr 1fr 1fr; 
-  grid-auto-columns: 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-}
-.pink2 { grid-area: 1 / 1 / 4 / 5; 
-  width: 50%;
-}
-.blue2 { grid-area: 1 / 1 / 3 / 2; 
-  width: 50%; 
-  align-self: flex-end;
-}
-.orange2 { grid-area: 2 / 3 / 4 / 5; 
-  width: 50%;
-  display: flex;
-  justify-content: flex-end;
-} */
-
 /*hero mediaquerys*/
-
 /* Pantallas pequeñas */
 @media (max-width: 576px) { 
   .container1 {
@@ -561,13 +498,6 @@ margin: 0 0 30px 0;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr; 
     gap: 0px 0px; 
   }
-  /* .container2 {
-    height: 80vh;
-    display: grid; 
-    grid-template-columns: 1fr 1fr 1fr 1fr; 
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr; 
-    gap: 0px 0px; 
-  } */
   .hero { 
     grid-area: 1 / 1 / 6 / 5; 
   }
@@ -578,30 +508,71 @@ margin: 0 0 30px 0;
     align-items: center;
     padding-right: 180px;
   }
-
   .blue { 
     grid-area: 1 / 1 / 4 / 3; 
     margin-bottom: 90%;
   }
-
   .orange { 
     grid-area: 4 / 3 / 6 / 5; 
     width: auto;
   }
-
   .hero-title { grid-area: 2 / 2 / 5 / 4; 
   }
- 
   .hero-title h1 {
     font-family: 'Collingar', sans-serif;
     font-size: 100px;
     color: #eae3da;
   }
-
   .hero-title p {
     font-size: 25px;
     color: #eae3da;
   }
+
+  /*work hero slider mediaquery 576px*/
+  .container2 {
+    height: 80vh;
+    display: grid; 
+    grid-auto-columns: 1fr; 
+    grid-template-columns: 1fr 1fr 0.9fr 1.1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr; 
+    gap: 0px 0px; 
+  }
+  .work { grid-area: 1 / 1 / 5 / 5; 
+  }
+  .pink2 { grid-area: 1 / 1 / 5 / 5; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 130%;
+    align-items: center;
+    gap: 1px;
+    z-index: 3;
+  }
+  .orange2 { grid-area: 3 / 4 / 5 / 5; 
+    width: 150%; 
+    align-self: flex-end;
+    margin-bottom: 2rem;
+    margin-right: 6rem;
+
+  }
+  .blue2 { grid-area: 2 / 1 / 5 / 2; 
+    width: 140%; 
+    margin-bottom: 450px;  
+}
+  .hero-title2 { grid-area: 2 / 2 / 4 / 4; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    gap: 1px;
+    z-index: 4;
+    margin-top: 3rem;
+  }
+  .hero-title2 h1 {
+    font-size: 90px;
+    margin-left: 3rem;
+  }
+
 }
 
 /* Tablets en orientación horizontal y pantallas medianas */
@@ -630,30 +601,27 @@ margin: 0 0 30px 0;
     align-items: center;
     padding-right: 180px;
   }
-
   .blue { 
     grid-area: 1 / 1 / 4 / 3; 
     margin-bottom: 50%;
   }
-
   .orange { 
     grid-area: 4 / 3 / 6 / 5; 
     width: auto;
   }
-
   .hero-title { grid-area: 2 / 2 / 5 / 4; 
   }
- 
   .hero-title h1 {
     font-family: 'Collingar', sans-serif;
     font-size: 150px;
     color: #eae3da;
   }
-
   .hero-title p {
     font-size: 35px;
     color: #eae3da;
   }
+
+
   
 }
 
@@ -3212,6 +3180,7 @@ ul.footer-gallery li img {
     opacity: 1; /* Cambia la opacidad al hacer hover */
     transform: translateY(0); /* Muestra el caption */
   }
+
 }
 
 /* Muestra siempre el "slide caption" en móviles */
@@ -3221,6 +3190,12 @@ ul.footer-gallery li img {
     opacity: 1;
     transform: translateY(0);
   }
+  .caption {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+  }
+
 }
 
 .card {
