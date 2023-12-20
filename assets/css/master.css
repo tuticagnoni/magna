@@ -446,7 +446,7 @@ margin: 0 0 30px 0;
 
 /*---===work===---*/
 .container2 {  
-  height: 80vh;
+  height: 100vh;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -531,7 +531,7 @@ margin: 0 0 30px 0;
 
   /*work hero slider mediaquery 576px*/
   .container2 {
-    height: 80vh;
+    height: 100vh;
     display: grid; 
     grid-template-columns: 1fr 1fr 1fr 1fr; 
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr; 
@@ -607,7 +607,7 @@ margin: 0 0 30px 0;
 
   /*work*/
   .container2 {
-    height: 80vh;
+    height: 100vh;
     display: grid; 
     grid-template-columns: 1fr 1fr 1fr 1fr; 
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr; 
@@ -688,7 +688,7 @@ margin: 0 0 30px 0;
 
 /*---===work===---*/
 .container2 {
-  height: 80vh;
+  height: 100vh;
   display: grid; 
   grid-template-columns: 1fr 1fr 1fr 1fr; 
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr; 
@@ -2242,8 +2242,8 @@ ul.footer-gallery li img {
     width: 35px;
     height: 35px;
     text-align: center;
-    line-height: 35px;
-    background: #FA4319;
+    line-height: 37px;
+    background: #25D366;
     color: #EAE3DA;
     border: 0;
     border-radius: 50%;
@@ -3231,7 +3231,7 @@ ul.footer-gallery li img {
 
 /*cards de work.html*/
 .card {
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
 }
 
 .card img {

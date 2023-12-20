@@ -352,15 +352,15 @@ jQuery(function ($) {
       $(window).on("scroll", function () {
         backToTop();
       });
-      $("#back-to-top").on("click", function (e) {
-        e.preventDefault();
-        $("html,body").animate(
-          {
-            scrollTop: 0,
-          },
-          700
-        );
-      });
+      // $("#back-to-top").on("click", function (e) {
+      //   e.preventDefault();
+      //   $("html,body").animate(
+      //     {
+      //       scrollTop: 0,
+      //     },
+      //     700
+      //   );
+      // });
     }
 
     /* ===== Parallax Stellar ===== */
