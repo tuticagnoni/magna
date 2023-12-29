@@ -24,31 +24,31 @@ jQuery(function ($) {
 
     /* ===== COUNTERS ===== */
 
-    $(".count").each(function () {
-      $(this)
-        .prop("Counter", 0)
-        .animate(
-          {
-            Counter: $(this).text(),
-          },
-          {
-            duration: 4000,
-            easing: "swing",
-            step: function (now) {
-              $(this).text(Math.ceil(now));
-            },
-          }
-        );
-    });
+    // $(".count").each(function () {
+    //   $(this)
+    //     .prop("Counter", 0)
+    //     .animate(
+    //       {
+    //         Counter: $(this).text(),
+    //       },
+    //       {
+    //         duration: 4000,
+    //         easing: "swing",
+    //         step: function (now) {
+    //           $(this).text(Math.ceil(now));
+    //         },
+    //       }
+    //     );
+    // });
 
     /* ===== COUNTDOWN ===== */
 
-    if ($(".countdown").length > 0) {
-      $(".countdown").countdown({
-        date: "31 dec 2022 12:00:00",
-        format: "on",
-      });
-    }
+    // if ($(".countdown").length > 0) {
+    //   $(".countdown").countdown({
+    //     date: "31 dec 2022 12:00:00",
+    //     format: "on",
+    //   });
+    // }
 
     /* ===== PROGRESS BAR ===== */
 
