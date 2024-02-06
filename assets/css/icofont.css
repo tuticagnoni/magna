@@ -33,14 +33,34 @@ url("../fonts/icofont.woff") format("woff");
   -webkit-font-smoothing: antialiased;
 }
 
-.icofont-duotone.icofont-multilingual:before
+.icofont-globe-alt:before
 {
-  content: "\13b6f";
+  content: "\eada";
 }
 
-.icofont-duotone.icofont-multilingual:after
+.icofont-ui-browser:before
 {
-  content: "\13b6e";
+  content: "\ec44";
+}
+
+.icofont-globe:before
+{
+  content: "\ef3e";
+}
+
+.icofont-world:before
+{
+  content: "\f02c";
+}
+
+.icofont-toggle-off:before
+{
+  content: "\f011";
+}
+
+.icofont-toggle-on:before
+{
+  content: "\f012";
 }
 
 .icofont-instagram:before
@@ -53,19 +73,24 @@ url("../fonts/icofont.woff") format("woff");
   content: "\ed4d";
 }
 
-.icofont-brand-whatsapp:before
-{
-  content: "\e957";
-}
-
 .icofont-whatsapp:before
 {
   content: "\ed86";
 }
 
+.icofont-brand-whatsapp:before
+{
+  content: "\e957";
+}
+
 .icofont-email:before
 {
   content: "\ef12";
+}
+
+.icofont-ui-email:before
+{
+  content: "\ec56";
 }
 
 [class^="icofont-"].icofont-duotone,
